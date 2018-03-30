@@ -7,10 +7,10 @@ target 'ProtobufDemo' do
 
   # Pods for ProtobufDemo
 
+pod 'Protobuf', '~> 3.4.0'
   target 'ProtobufDemoTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'Protobuf', '~> 3.4.0'
   end
 
   target 'ProtobufDemoUITests' do

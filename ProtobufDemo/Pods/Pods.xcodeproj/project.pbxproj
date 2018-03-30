@@ -7,84 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0001AB0AB0489249B4999EDA39A0A4E1 /* Empty.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDC9ED660E9B62071B66058E30F9DD3 /* Empty.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0586E13399ABA5B8499521E789D1DBE6 /* GPBExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = FC41C7AA5D75583D53C7F13DDC2CCB1A /* GPBExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		08F74FBBB195AD28D3B633C5AAD77B8C /* GPBDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 073EE959A7EE5E6E454B8C4636B2CB49 /* GPBDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		091F4435B5B7F0268738C48A9DC71C72 /* GPBExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 606C94442943AFF4967C24778B539EC1 /* GPBExtensionRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B4F6E95A7C0175A0E6F29B8FB250AA1 /* GPBUnknownField.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B58D40787DF49DDEC2A9EC7576EEF4 /* GPBUnknownField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1118042EB29A863D842488A657FD9D6D /* GPBWellKnownTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6341F7A38400AE22D661DE695795B0DF /* GPBWellKnownTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		174F2505451EA8A75FFA1C9238580397 /* FieldMask.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8E5955E43CA1F9E5B112050DF3EE54 /* FieldMask.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1A0AA224F2BC133951DF79E95522773E /* Empty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 771070BC8D04D698C9E68367FA6965F2 /* Empty.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1B34DC0AF59EDC32493473B6C56F2139 /* GPBBootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB0108F9F25E9B5397A8FCA6E8E1BEC /* GPBBootstrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C755533477DFCF341F1C605BB810D2F /* GPBArray_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7DF421FFB46B8039FB65C38CA02A00 /* GPBArray_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		205342B8E16AEF54FBB88CE9167F92DA /* GPBExtensionInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF1D12606EDCE12708B897AE22283A /* GPBExtensionInternals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2176C25F799D53908C4285A83A98F0E9 /* GPBRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5CC4C6FB5E7571C66AC1C570C26364 /* GPBRootObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		228D28050EC0EC8A6BF92A728C717ECD /* GPBUtilities_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FDC43DB0D26982FED63C23A9A657B5 /* GPBUtilities_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		253B5DEE05EED8D8905E90A2129CA30C /* GPBWireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 05883A10912D9C85BAE3E1CE176D3808 /* GPBWireFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		26E456794FB263C1A21BD9517A2DE3E7 /* GPBDictionary_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 68834CC0C648F6C006F5F811EC2955F2 /* GPBDictionary_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27E41197C498751CD8F1F07F2ADB4BE9 /* GPBRootObject_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 27957785ED25E546EBBF08EBDF065D21 /* GPBRootObject_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A98B128A43C768B9F73D39B4DAD86D3 /* GPBRuntimeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 068783EFE8C4AB9412F3156276CB8704 /* GPBRuntimeTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B1DA6081A7CF9F924B53F97BD0CAAE6 /* GPBCodedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE7B33073262E2DE726FD57BD72E26C /* GPBCodedOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C33D5F65976BA7A3434B3274A0DAC3A /* Timestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D50EA843C2D2520A02F2C73C8A4660 /* Timestamp.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3591123A0F17E1A15BD17FB347C3029A /* GPBUnknownFieldSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1B1030F06A44277CF9C4979C143F01 /* GPBUnknownFieldSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		372444E2765E8C255ABCCA2E1FD1BB31 /* GPBCodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D88CB77326149518795069AFAD6B4878 /* GPBCodedOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		376F406F69501B8525A5E7619A3E42F2 /* Wrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE231F3FC27E0A4C0EBB2EFB91876B1 /* Wrappers.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		379D6FA78D02B546E4360F0CDA55BF59 /* GPBCodedInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B473EFA5D47A472E7BD2592DE788E /* GPBCodedInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C73DAAA7B3B6EE747593FBCC1146556 /* GPBArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 4149A6DCF9B53166EB9A159B3DE6B98F /* GPBArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4194B2805596BFF48512B42BB8DBA8A9 /* GPBProtocolBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB9BDF4EE3AFA5BD10039054EE8E084 /* GPBProtocolBuffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		430E0233C17D3DD4A5213C82EF34D2F9 /* Timestamp.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = D8447A226AB5F4CB99BA9DFB3A0B93DC /* Timestamp.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		467FF1D08332883AA395504A253C8097 /* Duration.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = FB2275FA87B4763D8CDAD4B624F19D3E /* Duration.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54C962E606E20E4B3E32EB0D34B6C331 /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B76149CA8B8E3F1C0FB8AA44B6F45BF /* Duration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		57B25470F553603BFDECDA2037DC6E81 /* GPBRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D31E2922A7D9E14C378315788C92F9CF /* GPBRootObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5A070099E3904A8B10AC9CC5AB17F1FC /* Pods-ProtobufDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 547B3EAB4E645A87EF391AC595943DA9 /* Pods-ProtobufDemoTests-dummy.m */; };
-		5B9735FD25647D9A46424098AA873B66 /* Pods-ProtobufDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4840946A6B172D2CCF068D48EC03E5 /* Pods-ProtobufDemo-dummy.m */; };
-		5CF3573D0E34F751F6ABE356BC11282C /* SourceContext.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DA051428E3C8655F1D4E59A031F6B0 /* SourceContext.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E81DA66F63B4F7027FEAACC9B37FEC3 /* GPBCodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DE3792195702323448C4D8F845FCD8 /* GPBCodedInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5F9ECC4AD1EF37999F916DE3E85F00DA /* Type.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 36416EE68859AF1DD498849E76B6F6AC /* Type.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		62701F2F385AE3211CE54C911F0A7B62 /* Any.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDC67181415F4496EE637ECF5324648 /* Any.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		671A2295969C52AC930F196E11E0EF4F /* GPBWireFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDB339FA6A8C71762B43BA3222B6D58 /* GPBWireFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DD6F0CA257E807515D4BC6A7BD8DF85 /* GPBUnknownField_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6376728788F2A530CE00D395B2B15C /* GPBUnknownField_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F4966A9D71D3CA1FFFD24201846172D /* SourceContext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F3003E8D4C81F1ED344DA5525681A4 /* SourceContext.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7670455EFB850FFCEDD2CCCB7C6E7EA4 /* GPBMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A64928D3E59C58586CBBE7A09D6DEB64 /* GPBMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BD95100883663D6CDF2E735529EC75B /* GPBDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FB03CBCC0BBD2C203AA95D7EB36B07B9 /* GPBDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		829AB7B79051D61F37FE1F56013EF3EA /* Struct.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD45C4678FE9171C5094E11463C7612 /* Struct.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		82F95B3DB88654C3236C507538C97E7C /* Wrappers.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EC73CC206812DC7238885E4AE65442 /* Wrappers.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		897204F79FFA2C842C9007843F9F5141 /* GPBUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE529127B3776AFBC77545CACDE2ACC /* GPBUnknownField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		89B4516B303EA3820FC308A1A5B65DA0 /* FieldMask.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 950DEC074E7A8D14F1533ACDEFCF740B /* FieldMask.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92779E0DA75B00D5A9AE751012608CA4 /* GPBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F6310538A0B99FD7538F9F85F577EC /* GPBUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9797AFDDBA4E40221198FB6CC5D88D47 /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = A379BA7AF1ABFC76CCE087DCD549221E /* Api.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		97F7FCC3D012E3B2EC80723F37E46D42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9AA723E76E31A53ECF78015885A1EFAC /* GPBUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6706BBB22EF2646A7881B3DDC5AD450D /* GPBUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A039C2FD2182AFACEC62E770B0AF1100 /* GPBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB3AB0F649D16EF51FA63883ED10135 /* GPBMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A0A1C5F5847020F4241954F13E446400 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A36994EDAF113BB55CE0F24636FC9521 /* Struct.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB89530A3DA174350EBDA1770B227F7 /* Struct.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6E41BB2E06035626626C9F36F0B0088 /* GPBExtensionInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BF10635F7EDB86B588371AFA7726AD /* GPBExtensionInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A78CBB8DC0C384A556D547319D40B445 /* GPBCodedInputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8B6579581724D626498D10B1931220 /* GPBCodedInputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE0D2ABA15D4CB40F754ADAC3FEB1349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B453A88614793D534E0C2E9275B9D46B /* Type.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = C9ACF48B44FAB92DAA25CAD2D36EA780 /* Type.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D187CEA48F54B6F1B08DB2EFBD8A38 /* GPBCodedInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B473EFA5D47A472E7BD2592DE788E /* GPBCodedInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05DF2EF29EA1E2B7413513A7855B0F73 /* Wrappers.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EC73CC206812DC7238885E4AE65442 /* Wrappers.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D0F3932A1CA36228882C04BF19514EC /* Any.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D251778CD014669C49CBD0F54390A070 /* Any.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		116D1872C4BF38A0ABE2034646B9AA4D /* GPBUtilities_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FDC43DB0D26982FED63C23A9A657B5 /* GPBUtilities_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		134224335D89A5BE2D6891224FAAC4E0 /* GPBUnknownField_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6376728788F2A530CE00D395B2B15C /* GPBUnknownField_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13CB97019104639A4011164D93B0E9D2 /* GPBExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 606C94442943AFF4967C24778B539EC1 /* GPBExtensionRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16E0D413062B7794D719BCC19F54B733 /* Any.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDC67181415F4496EE637ECF5324648 /* Any.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD1CF70B541980EA0A9F58A7C6C7E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		20B434F612F02CBB84A4F3327E6CC2D0 /* GPBExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = FC41C7AA5D75583D53C7F13DDC2CCB1A /* GPBExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		233D535F87F081ECE1F707B2B09833A0 /* Type.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = C9ACF48B44FAB92DAA25CAD2D36EA780 /* Type.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		275F95C9408D76E3DDD35D0249FB1A08 /* SourceContext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F3003E8D4C81F1ED344DA5525681A4 /* SourceContext.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA84456945AF7964B27E0E99F104753 /* GPBExtensionInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BF10635F7EDB86B588371AFA7726AD /* GPBExtensionInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C499A64638D528D9DCF53DC5B5D0B4B /* GPBDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FB03CBCC0BBD2C203AA95D7EB36B07B9 /* GPBDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		319E57DEBBBF8B8208447BF837B5D73A /* GPBWireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 05883A10912D9C85BAE3E1CE176D3808 /* GPBWireFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3409D1CA55C126BD1496005A73A5321D /* GPBWellKnownTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E2E65973247F01813FC13310FF5520 /* GPBWellKnownTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3679B63EE0752453AFCA647802DCF7B4 /* GPBBootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB0108F9F25E9B5397A8FCA6E8E1BEC /* GPBBootstrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		380AAF16B2E00C1D94F566E9AC42DCC5 /* GPBArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 4149A6DCF9B53166EB9A159B3DE6B98F /* GPBArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B06AD27352D5DE426235136D3D229A0 /* GPBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB3AB0F649D16EF51FA63883ED10135 /* GPBMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FA831339B61F60E541F05AB64CAD4B3 /* GPBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7478E49F3A41AB8E387757CE90BA65B1 /* GPBDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4AE8764A3A0E9F4682A33974D539B268 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F71BCADD438BCD67C4C1A7DE59FEB7 /* GPBUnknownFieldSet_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569953E625099156A164491FBAFE31D1 /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = A379BA7AF1ABFC76CCE087DCD549221E /* Api.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5AD104EE9E6461FBB51A7E6F43A471CC /* GPBCodedInputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8B6579581724D626498D10B1931220 /* GPBCodedInputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0D560DD01B138DD3D049ECD70D6CA4 /* Pods-ProtobufDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 547B3EAB4E645A87EF391AC595943DA9 /* Pods-ProtobufDemoTests-dummy.m */; };
+		5E7B9B9136D10551A12C77A5D00510FD /* GPBUnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4C0EB1EFEC0AD85F9C273186F0E8F8 /* GPBUnknownFieldSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5F965684E50B6538E17B3E21AD4CBA04 /* Empty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 771070BC8D04D698C9E68367FA6965F2 /* Empty.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6260607114537D745F5785B947F9A52A /* GPBCodedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE7B33073262E2DE726FD57BD72E26C /* GPBCodedOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628886EF1C1263C190AC44ECBA410AF5 /* Pods-ProtobufDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4840946A6B172D2CCF068D48EC03E5 /* Pods-ProtobufDemo-dummy.m */; };
+		63A4ECFC0374BFABA52313D5C8F150A9 /* GPBDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 073EE959A7EE5E6E454B8C4636B2CB49 /* GPBDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		695D25A9E2D694E940B08CD33A01D3E8 /* GPBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C3CF6270728DF0458ABA9FD3D8AC5D /* GPBArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6A7EEF219F60521EBAD699A60077F543 /* GPBDictionary_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 68834CC0C648F6C006F5F811EC2955F2 /* GPBDictionary_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74445DAC929938965580EF7991D72975 /* GPBArray_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7DF421FFB46B8039FB65C38CA02A00 /* GPBArray_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C5F030077ACA79FEB9C30A413E6CCFC /* GPBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F6310538A0B99FD7538F9F85F577EC /* GPBUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7E4E50DBD39A7BD42BB770BBD69128F8 /* GPBProtocolBuffers_RuntimeSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6F559A7457D1F042DC5EC76656A8D4 /* GPBProtocolBuffers_RuntimeSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F880AD40A2B7F308DC2EE9436453B83 /* GPBUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6706BBB22EF2646A7881B3DDC5AD450D /* GPBUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808345C400C76366F58E3D8B51A3C570 /* GPBCodedOutputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF17DB7F5E5C40EB276B3E09CF708EF /* GPBCodedOutputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		849F6D1A9F9778E9E9A514B395661340 /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B76149CA8B8E3F1C0FB8AA44B6F45BF /* Duration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		85B687A5089DEF58FB63863B022786C9 /* Type.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 36416EE68859AF1DD498849E76B6F6AC /* Type.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		873169833BBC88E588E705994938E8A8 /* Struct.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB89530A3DA174350EBDA1770B227F7 /* Struct.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		899A9E3CD64A794C8EB9CEFC41632089 /* GPBCodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DE3792195702323448C4D8F845FCD8 /* GPBCodedInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		914045FB43A3D62AC70C633D65D0A7F9 /* Timestamp.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = D8447A226AB5F4CB99BA9DFB3A0B93DC /* Timestamp.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91850093982C6D0844B71C160ECDA65B /* GPBUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE529127B3776AFBC77545CACDE2ACC /* GPBUnknownField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9D55F553732DC7DDD1A2179EE8DD68DE /* GPBDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC4322555F96169F36757427900BDF8 /* GPBDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0DD6E1B1C617479BBC1BFE7CABA5082 /* GPBRootObject_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 27957785ED25E546EBBF08EBDF065D21 /* GPBRootObject_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A29FA216D70A0C5FBFE9D7CFB298DC9B /* GPBProtocolBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB9BDF4EE3AFA5BD10039054EE8E084 /* GPBProtocolBuffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A47986AD19DA688E171DD81AB36E2DB5 /* GPBRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5CC4C6FB5E7571C66AC1C570C26364 /* GPBRootObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53872613AECBF3E4AE8035039E7013C /* GPBDescriptor_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A03BC0DCFA98DE2F3D5655B822D5E1 /* GPBDescriptor_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6C76C120718A87B8EBD2E5C78A0E0BA /* Timestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D50EA843C2D2520A02F2C73C8A4660 /* Timestamp.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AAF1D7AC3BCDD8CE9FBAF05E096911BE /* Empty.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDC9ED660E9B62071B66058E30F9DD3 /* Empty.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA1188681B7A548542E679B1ABAFC12 /* GPBCodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D88CB77326149518795069AFAD6B4878 /* GPBCodedOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AC1B8E5A25764C1A3A3150D0F29C8AB9 /* GPBUnknownFieldSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1B1030F06A44277CF9C4979C143F01 /* GPBUnknownFieldSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC4947E9A7BC6738DA18AF29E44158F /* GPBRuntimeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 068783EFE8C4AB9412F3156276CB8704 /* GPBRuntimeTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE29969CF2A96DC6153EAA73577D7E0A /* GPBRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D31E2922A7D9E14C378315788C92F9CF /* GPBRootObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B4057670057EF9C78E4443FC20A1C536 /* GPBWellKnownTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6341F7A38400AE22D661DE695795B0DF /* GPBWellKnownTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6973C5E9D95EE5BB09D6AB26224469C /* Pods-ProtobufDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 385F570881A4663668EE58E2F31D3A57 /* Pods-ProtobufDemoUITests-dummy.m */; };
-		B83FD8A83EA3749238191AAEC65C214A /* GPBProtocolBuffers_RuntimeSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6F559A7457D1F042DC5EC76656A8D4 /* GPBProtocolBuffers_RuntimeSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAD1E4B46C8267C843489210A04983FB /* GPBDescriptor_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A03BC0DCFA98DE2F3D5655B822D5E1 /* GPBDescriptor_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE0A0AEE81EA33864E3E06CD84589F73 /* GPBDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC4322555F96169F36757427900BDF8 /* GPBDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C20175CAE36281FC4D0B1BAEC983DADB /* Api.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 94462A69FB2F25E125617F91587CA862 /* Api.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5CB2FCBEABC79E2AB9B6248DE631756 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F71BCADD438BCD67C4C1A7DE59FEB7 /* GPBUnknownFieldSet_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6B610C087330B4AC6006A6B0C2BF217 /* GPBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7478E49F3A41AB8E387757CE90BA65B1 /* GPBDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D87FF7EFEB745FCB796E496B0EE1EDB9 /* GPBMessage_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 745B4DCF8CAC685FDF04F51DD0BB5F29 /* GPBMessage_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9E9ACDE91037D1F69D595F979EAC70D /* Any.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D251778CD014669C49CBD0F54390A070 /* Any.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DD5A1C790765FD8EF74FD270DC7A8BAA /* Protobuf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D76BA5DBF0510F7848C0CCA66EC475B /* Protobuf-dummy.m */; };
-		E0BC8C0DA595B3BB5C9BAE9B3B167D18 /* GPBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C3CF6270728DF0458ABA9FD3D8AC5D /* GPBArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		ECAD0098A3017A341D43602B18DFC926 /* GPBWellKnownTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E2E65973247F01813FC13310FF5520 /* GPBWellKnownTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF2E6963A20BE91B1BCE8F238FC9F891 /* SourceContext.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DA051428E3C8655F1D4E59A031F6B0 /* SourceContext.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB4198188E821CBD45A50A044FEE80C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C0D757500DF71A90BD8753015205B94B /* GPBUnknownField.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B58D40787DF49DDEC2A9EC7576EEF4 /* GPBUnknownField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1BC27480C2CBADE02E6B3EBB120A3D4 /* GPBMessage_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 745B4DCF8CAC685FDF04F51DD0BB5F29 /* GPBMessage_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D05B8B619CE16FB18F1BA95F98290008 /* FieldMask.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8E5955E43CA1F9E5B112050DF3EE54 /* FieldMask.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D0B7B4696CB1158F02E6C37891177AD1 /* GPBWireFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDB339FA6A8C71762B43BA3222B6D58 /* GPBWireFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D27E1C6CB303E1A78DF07715015A9CFB /* Wrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE231F3FC27E0A4C0EBB2EFB91876B1 /* Wrappers.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6B7A3F83CCF839430F73EEB02D002A0 /* GPBMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A64928D3E59C58586CBBE7A09D6DEB64 /* GPBMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D85E8589D798A0BB9D060ACFA8E762DB /* FieldMask.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 950DEC074E7A8D14F1533ACDEFCF740B /* FieldMask.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2CF1119100D866F0DF88FA6E2F3920 /* GPBExtensionInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF1D12606EDCE12708B897AE22283A /* GPBExtensionInternals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E683EFFFE70001A5624D53BFFEA57280 /* Protobuf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D76BA5DBF0510F7848C0CCA66EC475B /* Protobuf-dummy.m */; };
+		EA91EE864014E96085EF9ABA51D74BB0 /* Duration.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = FB2275FA87B4763D8CDAD4B624F19D3E /* Duration.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED91364B42B6304B93F5CBB685963EFA /* Struct.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD45C4678FE9171C5094E11463C7612 /* Struct.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EDBC61AB5866EDF3426429E75AD1FFB0 /* Api.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 94462A69FB2F25E125617F91587CA862 /* Api.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4DB19A9BEAC9235DE955B95B1360BB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F631ACB3E248E19F31E9C9B716903622 /* GPBUnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4C0EB1EFEC0AD85F9C273186F0E8F8 /* GPBUnknownFieldSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F869743832FCD00C933DDF964733C724 /* GPBCodedOutputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF17DB7F5E5C40EB276B3E09CF708EF /* GPBCodedOutputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDE28D5BE3EB4BE092420AA937BFC0E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC69403E001CC20759EAC6600EE7459D /* PBXContainerItemProxy */ = {
+		24806CD099BAF50A62253524ABC2064F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D4221B3D99BFD80CD51E9C69FB953525;
+			remoteGlobalIDString = 72CA3A796AD5E67CA09EF980D5FED9D3;
 			remoteInfo = Protobuf;
 		};
 /* End PBXContainerItemProxy section */
@@ -185,19 +185,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05BD7EEBD89AB2511B7C8CCE38AF395A /* Frameworks */ = {
+		3A16F32A3565410520AF0B969661ED27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97F7FCC3D012E3B2EC80723F37E46D42 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D8FC13EC83B64A52BF90B7C8214526E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0A1C5F5847020F4241954F13E446400 /* Foundation.framework in Frameworks */,
+				BFB4198188E821CBD45A50A044FEE80C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,11 +201,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E38C2CC40BF6E0B9B4908E96946B3168 /* Frameworks */ = {
+		5CF2AA7D389D408D59D0F65FA1C8B0EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE0D2ABA15D4CB40F754ADAC3FEB1349 /* Foundation.framework in Frameworks */,
+				1CD1CF70B541980EA0A9F58A7C6C7E45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8A2D3C4ED9DFD105DCC1C75145DE81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE28D5BE3EB4BE092420AA937BFC0E9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,54 +406,71 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CB60D3D325C3F6CA6C318C42659749C4 /* Headers */ = {
+		953DD4974F9773E605E64802BCD30A11 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62701F2F385AE3211CE54C911F0A7B62 /* Any.pbobjc.h in Headers */,
-				C20175CAE36281FC4D0B1BAEC983DADB /* Api.pbobjc.h in Headers */,
-				467FF1D08332883AA395504A253C8097 /* Duration.pbobjc.h in Headers */,
-				0001AB0AB0489249B4999EDA39A0A4E1 /* Empty.pbobjc.h in Headers */,
-				89B4516B303EA3820FC308A1A5B65DA0 /* FieldMask.pbobjc.h in Headers */,
-				3C73DAAA7B3B6EE747593FBCC1146556 /* GPBArray.h in Headers */,
-				1C755533477DFCF341F1C605BB810D2F /* GPBArray_PackagePrivate.h in Headers */,
-				1B34DC0AF59EDC32493473B6C56F2139 /* GPBBootstrap.h in Headers */,
-				379D6FA78D02B546E4360F0CDA55BF59 /* GPBCodedInputStream.h in Headers */,
-				A78CBB8DC0C384A556D547319D40B445 /* GPBCodedInputStream_PackagePrivate.h in Headers */,
-				2B1DA6081A7CF9F924B53F97BD0CAAE6 /* GPBCodedOutputStream.h in Headers */,
-				F869743832FCD00C933DDF964733C724 /* GPBCodedOutputStream_PackagePrivate.h in Headers */,
-				BE0A0AEE81EA33864E3E06CD84589F73 /* GPBDescriptor.h in Headers */,
-				BAD1E4B46C8267C843489210A04983FB /* GPBDescriptor_PackagePrivate.h in Headers */,
-				08F74FBBB195AD28D3B633C5AAD77B8C /* GPBDictionary.h in Headers */,
-				26E456794FB263C1A21BD9517A2DE3E7 /* GPBDictionary_PackagePrivate.h in Headers */,
-				A6E41BB2E06035626626C9F36F0B0088 /* GPBExtensionInternals.h in Headers */,
-				091F4435B5B7F0268738C48A9DC71C72 /* GPBExtensionRegistry.h in Headers */,
-				7670455EFB850FFCEDD2CCCB7C6E7EA4 /* GPBMessage.h in Headers */,
-				D87FF7EFEB745FCB796E496B0EE1EDB9 /* GPBMessage_PackagePrivate.h in Headers */,
-				4194B2805596BFF48512B42BB8DBA8A9 /* GPBProtocolBuffers.h in Headers */,
-				B83FD8A83EA3749238191AAEC65C214A /* GPBProtocolBuffers_RuntimeSupport.h in Headers */,
-				2176C25F799D53908C4285A83A98F0E9 /* GPBRootObject.h in Headers */,
-				27E41197C498751CD8F1F07F2ADB4BE9 /* GPBRootObject_PackagePrivate.h in Headers */,
-				2A98B128A43C768B9F73D39B4DAD86D3 /* GPBRuntimeTypes.h in Headers */,
-				0B4F6E95A7C0175A0E6F29B8FB250AA1 /* GPBUnknownField.h in Headers */,
-				6DD6F0CA257E807515D4BC6A7BD8DF85 /* GPBUnknownField_PackagePrivate.h in Headers */,
-				3591123A0F17E1A15BD17FB347C3029A /* GPBUnknownFieldSet.h in Headers */,
-				C5CB2FCBEABC79E2AB9B6248DE631756 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */,
-				9AA723E76E31A53ECF78015885A1EFAC /* GPBUtilities.h in Headers */,
-				228D28050EC0EC8A6BF92A728C717ECD /* GPBUtilities_PackagePrivate.h in Headers */,
-				1118042EB29A863D842488A657FD9D6D /* GPBWellKnownTypes.h in Headers */,
-				671A2295969C52AC930F196E11E0EF4F /* GPBWireFormat.h in Headers */,
-				5CF3573D0E34F751F6ABE356BC11282C /* SourceContext.pbobjc.h in Headers */,
-				A36994EDAF113BB55CE0F24636FC9521 /* Struct.pbobjc.h in Headers */,
-				430E0233C17D3DD4A5213C82EF34D2F9 /* Timestamp.pbobjc.h in Headers */,
-				B453A88614793D534E0C2E9275B9D46B /* Type.pbobjc.h in Headers */,
-				82F95B3DB88654C3236C507538C97E7C /* Wrappers.pbobjc.h in Headers */,
+				16E0D413062B7794D719BCC19F54B733 /* Any.pbobjc.h in Headers */,
+				EDBC61AB5866EDF3426429E75AD1FFB0 /* Api.pbobjc.h in Headers */,
+				EA91EE864014E96085EF9ABA51D74BB0 /* Duration.pbobjc.h in Headers */,
+				AAF1D7AC3BCDD8CE9FBAF05E096911BE /* Empty.pbobjc.h in Headers */,
+				D85E8589D798A0BB9D060ACFA8E762DB /* FieldMask.pbobjc.h in Headers */,
+				380AAF16B2E00C1D94F566E9AC42DCC5 /* GPBArray.h in Headers */,
+				74445DAC929938965580EF7991D72975 /* GPBArray_PackagePrivate.h in Headers */,
+				3679B63EE0752453AFCA647802DCF7B4 /* GPBBootstrap.h in Headers */,
+				01D187CEA48F54B6F1B08DB2EFBD8A38 /* GPBCodedInputStream.h in Headers */,
+				5AD104EE9E6461FBB51A7E6F43A471CC /* GPBCodedInputStream_PackagePrivate.h in Headers */,
+				6260607114537D745F5785B947F9A52A /* GPBCodedOutputStream.h in Headers */,
+				808345C400C76366F58E3D8B51A3C570 /* GPBCodedOutputStream_PackagePrivate.h in Headers */,
+				9D55F553732DC7DDD1A2179EE8DD68DE /* GPBDescriptor.h in Headers */,
+				A53872613AECBF3E4AE8035039E7013C /* GPBDescriptor_PackagePrivate.h in Headers */,
+				63A4ECFC0374BFABA52313D5C8F150A9 /* GPBDictionary.h in Headers */,
+				6A7EEF219F60521EBAD699A60077F543 /* GPBDictionary_PackagePrivate.h in Headers */,
+				2BA84456945AF7964B27E0E99F104753 /* GPBExtensionInternals.h in Headers */,
+				13CB97019104639A4011164D93B0E9D2 /* GPBExtensionRegistry.h in Headers */,
+				D6B7A3F83CCF839430F73EEB02D002A0 /* GPBMessage.h in Headers */,
+				C1BC27480C2CBADE02E6B3EBB120A3D4 /* GPBMessage_PackagePrivate.h in Headers */,
+				A29FA216D70A0C5FBFE9D7CFB298DC9B /* GPBProtocolBuffers.h in Headers */,
+				7E4E50DBD39A7BD42BB770BBD69128F8 /* GPBProtocolBuffers_RuntimeSupport.h in Headers */,
+				A47986AD19DA688E171DD81AB36E2DB5 /* GPBRootObject.h in Headers */,
+				A0DD6E1B1C617479BBC1BFE7CABA5082 /* GPBRootObject_PackagePrivate.h in Headers */,
+				ACC4947E9A7BC6738DA18AF29E44158F /* GPBRuntimeTypes.h in Headers */,
+				C0D757500DF71A90BD8753015205B94B /* GPBUnknownField.h in Headers */,
+				134224335D89A5BE2D6891224FAAC4E0 /* GPBUnknownField_PackagePrivate.h in Headers */,
+				AC1B8E5A25764C1A3A3150D0F29C8AB9 /* GPBUnknownFieldSet.h in Headers */,
+				4AE8764A3A0E9F4682A33974D539B268 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */,
+				7F880AD40A2B7F308DC2EE9436453B83 /* GPBUtilities.h in Headers */,
+				116D1872C4BF38A0ABE2034646B9AA4D /* GPBUtilities_PackagePrivate.h in Headers */,
+				B4057670057EF9C78E4443FC20A1C536 /* GPBWellKnownTypes.h in Headers */,
+				D0B7B4696CB1158F02E6C37891177AD1 /* GPBWireFormat.h in Headers */,
+				BF2E6963A20BE91B1BCE8F238FC9F891 /* SourceContext.pbobjc.h in Headers */,
+				873169833BBC88E588E705994938E8A8 /* Struct.pbobjc.h in Headers */,
+				914045FB43A3D62AC70C633D65D0A7F9 /* Timestamp.pbobjc.h in Headers */,
+				233D535F87F081ECE1F707B2B09833A0 /* Type.pbobjc.h in Headers */,
+				05DF2EF29EA1E2B7413513A7855B0F73 /* Wrappers.pbobjc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		72CA3A796AD5E67CA09EF980D5FED9D3 /* Protobuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B338608713EFAC9993755CC0370C126 /* Build configuration list for PBXNativeTarget "Protobuf" */;
+			buildPhases = (
+				77C965807B163B4714278201113C6C49 /* Sources */,
+				5CF2AA7D389D408D59D0F65FA1C8B0EB /* Frameworks */,
+				953DD4974F9773E605E64802BCD30A11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Protobuf;
+			productName = Protobuf;
+			productReference = AC0C981F8EEE08645CB5A62D1FE6D2A7 /* libProtobuf.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		94A0C018C0B7BDAA75C4BBDA7877DDBC /* Pods-ProtobufDemoUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 360C2701C636E96667584DBDA3BB7875 /* Build configuration list for PBXNativeTarget "Pods-ProtobufDemoUITests" */;
@@ -470,54 +487,37 @@
 			productReference = 349ED2017CE8BF0B05EEA86D9463C808 /* libPods-ProtobufDemoUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		98860917B5A240825FF4412A4A4CF899 /* Pods-ProtobufDemoTests */ = {
+		9E286C1AF84ABB8957532CAD3F6812F7 /* Pods-ProtobufDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C282E2A39A3799199EB8196888CD2532 /* Build configuration list for PBXNativeTarget "Pods-ProtobufDemoTests" */;
+			buildConfigurationList = 0D88F6BE651E3F89417F48BB9BA0F532 /* Build configuration list for PBXNativeTarget "Pods-ProtobufDemo" */;
 			buildPhases = (
-				0894D16E515914464BA82B29A278961E /* Sources */,
-				E38C2CC40BF6E0B9B4908E96946B3168 /* Frameworks */,
+				B48F06DDD5388F8BAA91CDBF2349E301 /* Sources */,
+				6C8A2D3C4ED9DFD105DCC1C75145DE81 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F216775F73857AEBB3FEF17FC0B993F7 /* PBXTargetDependency */,
-			);
-			name = "Pods-ProtobufDemoTests";
-			productName = "Pods-ProtobufDemoTests";
-			productReference = AAF793C86E242DD4D946C22C5D6F1E8E /* libPods-ProtobufDemoTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D4221B3D99BFD80CD51E9C69FB953525 /* Protobuf */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0B980973015C9F4B91FE379D0EF8A19B /* Build configuration list for PBXNativeTarget "Protobuf" */;
-			buildPhases = (
-				9E66D3EDDBCCFE4009AC0FA652429EC0 /* Sources */,
-				0D8FC13EC83B64A52BF90B7C8214526E /* Frameworks */,
-				CB60D3D325C3F6CA6C318C42659749C4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Protobuf;
-			productName = Protobuf;
-			productReference = AC0C981F8EEE08645CB5A62D1FE6D2A7 /* libProtobuf.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E9360CD42EAA41F44980DA61E6A7B1A9 /* Pods-ProtobufDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C4F8EE9320F195E967FBC0DDDC51310E /* Build configuration list for PBXNativeTarget "Pods-ProtobufDemo" */;
-			buildPhases = (
-				C36ED0D643B750D4CF6159738E28B6C6 /* Sources */,
-				05BD7EEBD89AB2511B7C8CCE38AF395A /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				CB69099FE4AECE907615361984A6A065 /* PBXTargetDependency */,
 			);
 			name = "Pods-ProtobufDemo";
 			productName = "Pods-ProtobufDemo";
 			productReference = 085E9998FAAD78C7436EF32B1A95BE20 /* libPods-ProtobufDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7764D6824C67F327EA7CB3D131144AD /* Pods-ProtobufDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EB19E764F34861DE507093EF87426C /* Build configuration list for PBXNativeTarget "Pods-ProtobufDemoTests" */;
+			buildPhases = (
+				2166A612BB86F5224BA28033F7931FD8 /* Sources */,
+				3A16F32A3565410520AF0B969661ED27 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ProtobufDemoTests";
+			productName = "Pods-ProtobufDemoTests";
+			productReference = AAF793C86E242DD4D946C22C5D6F1E8E /* libPods-ProtobufDemoTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -541,20 +541,52 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9360CD42EAA41F44980DA61E6A7B1A9 /* Pods-ProtobufDemo */,
-				98860917B5A240825FF4412A4A4CF899 /* Pods-ProtobufDemoTests */,
+				9E286C1AF84ABB8957532CAD3F6812F7 /* Pods-ProtobufDemo */,
+				E7764D6824C67F327EA7CB3D131144AD /* Pods-ProtobufDemoTests */,
 				94A0C018C0B7BDAA75C4BBDA7877DDBC /* Pods-ProtobufDemoUITests */,
-				D4221B3D99BFD80CD51E9C69FB953525 /* Protobuf */,
+				72CA3A796AD5E67CA09EF980D5FED9D3 /* Protobuf */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0894D16E515914464BA82B29A278961E /* Sources */ = {
+		2166A612BB86F5224BA28033F7931FD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A070099E3904A8B10AC9CC5AB17F1FC /* Pods-ProtobufDemoTests-dummy.m in Sources */,
+				5B0D560DD01B138DD3D049ECD70D6CA4 /* Pods-ProtobufDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C965807B163B4714278201113C6C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0F3932A1CA36228882C04BF19514EC /* Any.pbobjc.m in Sources */,
+				569953E625099156A164491FBAFE31D1 /* Api.pbobjc.m in Sources */,
+				849F6D1A9F9778E9E9A514B395661340 /* Duration.pbobjc.m in Sources */,
+				5F965684E50B6538E17B3E21AD4CBA04 /* Empty.pbobjc.m in Sources */,
+				D05B8B619CE16FB18F1BA95F98290008 /* FieldMask.pbobjc.m in Sources */,
+				695D25A9E2D694E940B08CD33A01D3E8 /* GPBArray.m in Sources */,
+				899A9E3CD64A794C8EB9CEFC41632089 /* GPBCodedInputStream.m in Sources */,
+				ABA1188681B7A548542E679B1ABAFC12 /* GPBCodedOutputStream.m in Sources */,
+				3FA831339B61F60E541F05AB64CAD4B3 /* GPBDescriptor.m in Sources */,
+				2C499A64638D528D9DCF53DC5B5D0B4B /* GPBDictionary.m in Sources */,
+				DB2CF1119100D866F0DF88FA6E2F3920 /* GPBExtensionInternals.m in Sources */,
+				20B434F612F02CBB84A4F3327E6CC2D0 /* GPBExtensionRegistry.m in Sources */,
+				3B06AD27352D5DE426235136D3D229A0 /* GPBMessage.m in Sources */,
+				AE29969CF2A96DC6153EAA73577D7E0A /* GPBRootObject.m in Sources */,
+				91850093982C6D0844B71C160ECDA65B /* GPBUnknownField.m in Sources */,
+				5E7B9B9136D10551A12C77A5D00510FD /* GPBUnknownFieldSet.m in Sources */,
+				7C5F030077ACA79FEB9C30A413E6CCFC /* GPBUtilities.m in Sources */,
+				3409D1CA55C126BD1496005A73A5321D /* GPBWellKnownTypes.m in Sources */,
+				319E57DEBBBF8B8208447BF837B5D73A /* GPBWireFormat.m in Sources */,
+				E683EFFFE70001A5624D53BFFEA57280 /* Protobuf-dummy.m in Sources */,
+				275F95C9408D76E3DDD35D0249FB1A08 /* SourceContext.pbobjc.m in Sources */,
+				ED91364B42B6304B93F5CBB685963EFA /* Struct.pbobjc.m in Sources */,
+				A6C76C120718A87B8EBD2E5C78A0E0BA /* Timestamp.pbobjc.m in Sources */,
+				85B687A5089DEF58FB63863B022786C9 /* Type.pbobjc.m in Sources */,
+				D27E1C6CB303E1A78DF07715015A9CFB /* Wrappers.pbobjc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,67 +598,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E66D3EDDBCCFE4009AC0FA652429EC0 /* Sources */ = {
+		B48F06DDD5388F8BAA91CDBF2349E301 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9E9ACDE91037D1F69D595F979EAC70D /* Any.pbobjc.m in Sources */,
-				9797AFDDBA4E40221198FB6CC5D88D47 /* Api.pbobjc.m in Sources */,
-				54C962E606E20E4B3E32EB0D34B6C331 /* Duration.pbobjc.m in Sources */,
-				1A0AA224F2BC133951DF79E95522773E /* Empty.pbobjc.m in Sources */,
-				174F2505451EA8A75FFA1C9238580397 /* FieldMask.pbobjc.m in Sources */,
-				E0BC8C0DA595B3BB5C9BAE9B3B167D18 /* GPBArray.m in Sources */,
-				5E81DA66F63B4F7027FEAACC9B37FEC3 /* GPBCodedInputStream.m in Sources */,
-				372444E2765E8C255ABCCA2E1FD1BB31 /* GPBCodedOutputStream.m in Sources */,
-				C6B610C087330B4AC6006A6B0C2BF217 /* GPBDescriptor.m in Sources */,
-				7BD95100883663D6CDF2E735529EC75B /* GPBDictionary.m in Sources */,
-				205342B8E16AEF54FBB88CE9167F92DA /* GPBExtensionInternals.m in Sources */,
-				0586E13399ABA5B8499521E789D1DBE6 /* GPBExtensionRegistry.m in Sources */,
-				A039C2FD2182AFACEC62E770B0AF1100 /* GPBMessage.m in Sources */,
-				57B25470F553603BFDECDA2037DC6E81 /* GPBRootObject.m in Sources */,
-				897204F79FFA2C842C9007843F9F5141 /* GPBUnknownField.m in Sources */,
-				F631ACB3E248E19F31E9C9B716903622 /* GPBUnknownFieldSet.m in Sources */,
-				92779E0DA75B00D5A9AE751012608CA4 /* GPBUtilities.m in Sources */,
-				ECAD0098A3017A341D43602B18DFC926 /* GPBWellKnownTypes.m in Sources */,
-				253B5DEE05EED8D8905E90A2129CA30C /* GPBWireFormat.m in Sources */,
-				DD5A1C790765FD8EF74FD270DC7A8BAA /* Protobuf-dummy.m in Sources */,
-				6F4966A9D71D3CA1FFFD24201846172D /* SourceContext.pbobjc.m in Sources */,
-				829AB7B79051D61F37FE1F56013EF3EA /* Struct.pbobjc.m in Sources */,
-				2C33D5F65976BA7A3434B3274A0DAC3A /* Timestamp.pbobjc.m in Sources */,
-				5F9ECC4AD1EF37999F916DE3E85F00DA /* Type.pbobjc.m in Sources */,
-				376F406F69501B8525A5E7619A3E42F2 /* Wrappers.pbobjc.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C36ED0D643B750D4CF6159738E28B6C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B9735FD25647D9A46424098AA873B66 /* Pods-ProtobufDemo-dummy.m in Sources */,
+				628886EF1C1263C190AC44ECBA410AF5 /* Pods-ProtobufDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F216775F73857AEBB3FEF17FC0B993F7 /* PBXTargetDependency */ = {
+		CB69099FE4AECE907615361984A6A065 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Protobuf;
-			target = D4221B3D99BFD80CD51E9C69FB953525 /* Protobuf */;
-			targetProxy = DC69403E001CC20759EAC6600EE7459D /* PBXContainerItemProxy */;
+			target = 72CA3A796AD5E67CA09EF980D5FED9D3 /* Protobuf */;
+			targetProxy = 24806CD099BAF50A62253524ABC2064F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03A2A0CAC729AD7335A478402462116D /* Release */ = {
+		17B0A19E00BC0B052641DF130742F74A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23E3693E79A024E3BD8437E8B5A496C3 /* Pods-ProtobufDemoTests.release.xcconfig */;
+			baseConfigurationReference = AC56A65DA28B69BC7F23ED2E553C37A0 /* Pods-ProtobufDemoTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		359ABE3F401244B9DB96408D9AAFEDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479880CAE6F6C29B97A657EFBF36E0FA /* Pods-ProtobufDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -639,7 +659,7 @@
 			};
 			name = Release;
 		};
-		22F737711A26ECD37441CDD88327357E /* Debug */ = {
+		3A572D284BED2F60579E538AB064B5A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76004BE1D990389024776949CA52101E /* Pods-ProtobufDemoUITests.debug.xcconfig */;
 			buildSettings = {
@@ -647,7 +667,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -659,15 +679,15 @@
 			};
 			name = Debug;
 		};
-		253EDF27AE67E604DCF76D314979015E /* Debug */ = {
+		57B892D2EDB085A7770DA8F8F8FA17A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC56A65DA28B69BC7F23ED2E553C37A0 /* Pods-ProtobufDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 23E3693E79A024E3BD8437E8B5A496C3 /* Pods-ProtobufDemoTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -676,10 +696,87 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		279695D69286304DAF9BF26FC5196CF2 /* Debug */ = {
+		607937C8607E2E80EDFCD84EF678282F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E58E053368A03A45D6B4E1299B99609 /* Pods-ProtobufDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		96E4691DFBDA5DDEA138B36307C7609F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14BF29DA8E6294E158768F9D3E86D430 /* Pods-ProtobufDemo.debug.xcconfig */;
 			buildSettings = {
@@ -687,7 +784,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -699,7 +796,48 @@
 			};
 			name = Debug;
 		};
-		5BD7F7E59E5E6B9E85A16D64D7E561CF /* Debug */ = {
+		A3228C14EF44BF485F80E3F527E0C55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFCE768D435D4595860E92C11FBF760 /* Protobuf.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D54B3A99A3C95211432BB35490E9FF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFCE768D435D4595860E92C11FBF760 /* Protobuf.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D588BF4541F6DEB3996948EB614FDD67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -748,7 +886,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -758,152 +896,14 @@
 			};
 			name = Debug;
 		};
-		636D1C7229F493CA878F5A14B4E6E936 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EFCE768D435D4595860E92C11FBF760 /* Protobuf.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		BDD6D9EA07109C2336507530FC07133A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E58E053368A03A45D6B4E1299B99609 /* Pods-ProtobufDemo.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E9CDC72D651D7FDC1FBC125A086FC867 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 479880CAE6F6C29B97A657EFBF36E0FA /* Pods-ProtobufDemoUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F8F8C4751B8F31A9E47E9DAD39DBD582 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EFCE768D435D4595860E92C11FBF760 /* Protobuf.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B980973015C9F4B91FE379D0EF8A19B /* Build configuration list for PBXNativeTarget "Protobuf" */ = {
+		0D88F6BE651E3F89417F48BB9BA0F532 /* Build configuration list for PBXNativeTarget "Pods-ProtobufDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				636D1C7229F493CA878F5A14B4E6E936 /* Debug */,
-				F8F8C4751B8F31A9E47E9DAD39DBD582 /* Release */,
+				96E4691DFBDA5DDEA138B36307C7609F /* Debug */,
+				607937C8607E2E80EDFCD84EF678282F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -911,8 +911,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BD7F7E59E5E6B9E85A16D64D7E561CF /* Debug */,
-				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+				D588BF4541F6DEB3996948EB614FDD67 /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -920,26 +920,26 @@
 		360C2701C636E96667584DBDA3BB7875 /* Build configuration list for PBXNativeTarget "Pods-ProtobufDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22F737711A26ECD37441CDD88327357E /* Debug */,
-				E9CDC72D651D7FDC1FBC125A086FC867 /* Release */,
+				3A572D284BED2F60579E538AB064B5A2 /* Debug */,
+				359ABE3F401244B9DB96408D9AAFEDF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C282E2A39A3799199EB8196888CD2532 /* Build configuration list for PBXNativeTarget "Pods-ProtobufDemoTests" */ = {
+		4B338608713EFAC9993755CC0370C126 /* Build configuration list for PBXNativeTarget "Protobuf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				253EDF27AE67E604DCF76D314979015E /* Debug */,
-				03A2A0CAC729AD7335A478402462116D /* Release */,
+				D54B3A99A3C95211432BB35490E9FF55 /* Debug */,
+				A3228C14EF44BF485F80E3F527E0C55A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4F8EE9320F195E967FBC0DDDC51310E /* Build configuration list for PBXNativeTarget "Pods-ProtobufDemo" */ = {
+		83EB19E764F34861DE507093EF87426C /* Build configuration list for PBXNativeTarget "Pods-ProtobufDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				279695D69286304DAF9BF26FC5196CF2 /* Debug */,
-				BDD6D9EA07109C2336507530FC07133A /* Release */,
+				17B0A19E00BC0B052641DF130742F74A /* Debug */,
+				57B892D2EDB085A7770DA8F8F8FA17A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
