@@ -18,6 +18,8 @@
 		EB562D38206E185A00505FEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB562D37206E185A00505FEF /* main.m */; };
 		EB562D42206E185A00505FEF /* ProtobufDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB562D41206E185A00505FEF /* ProtobufDemoTests.m */; };
 		EB562D4D206E185A00505FEF /* ProtobufDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB562D4C206E185A00505FEF /* ProtobufDemoUITests.m */; };
+		EB562D66206E230E00505FEF /* ProtobufDemoPbuser.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = EB562D63206E230E00505FEF /* ProtobufDemoPbuser.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB562D69206E2B7B00505FEF /* protobufDemo.pbuser.proto in Resources */ = {isa = PBXBuildFile; fileRef = EB562D68206E2B7B00505FEF /* protobufDemo.pbuser.proto */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		EB562D48206E185A00505FEF /* ProtobufDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtobufDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB562D4C206E185A00505FEF /* ProtobufDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtobufDemoUITests.m; sourceTree = "<group>"; };
 		EB562D4E206E185A00505FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB562D63206E230E00505FEF /* ProtobufDemoPbuser.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtobufDemoPbuser.pbobjc.m; sourceTree = "<group>"; };
+		EB562D64206E230E00505FEF /* ProtobufDemoPbuser.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtobufDemoPbuser.pbobjc.h; sourceTree = "<group>"; };
+		EB562D68206E2B7B00505FEF /* protobufDemo.pbuser.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = protobufDemo.pbuser.proto; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +146,8 @@
 		EB562D27206E185A00505FEF /* ProtobufDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EB562D67206E2B7B00505FEF /* Protobuf */,
+				EB562D61206E230E00505FEF /* Gen */,
 				EB562D28206E185A00505FEF /* AppDelegate.h */,
 				EB562D29206E185A00505FEF /* AppDelegate.m */,
 				EB562D2B206E185A00505FEF /* ViewController.h */,
@@ -170,6 +177,31 @@
 				EB562D4E206E185A00505FEF /* Info.plist */,
 			);
 			path = ProtobufDemoUITests;
+			sourceTree = "<group>";
+		};
+		EB562D61206E230E00505FEF /* Gen */ = {
+			isa = PBXGroup;
+			children = (
+				EB562D62206E230E00505FEF /* Protobuf */,
+			);
+			path = Gen;
+			sourceTree = "<group>";
+		};
+		EB562D62206E230E00505FEF /* Protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				EB562D64206E230E00505FEF /* ProtobufDemoPbuser.pbobjc.h */,
+				EB562D63206E230E00505FEF /* ProtobufDemoPbuser.pbobjc.m */,
+			);
+			path = Protobuf;
+			sourceTree = "<group>";
+		};
+		EB562D67206E2B7B00505FEF /* Protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				EB562D68206E2B7B00505FEF /* protobufDemo.pbuser.proto */,
+			);
+			path = Protobuf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB562D69206E2B7B00505FEF /* protobufDemo.pbuser.proto in Resources */,
 				EB562D35206E185A00505FEF /* LaunchScreen.storyboard in Resources */,
 				EB562D32206E185A00505FEF /* Assets.xcassets in Resources */,
 				EB562D30206E185A00505FEF /* Main.storyboard in Resources */,
@@ -455,6 +488,7 @@
 				EB562D2D206E185A00505FEF /* ViewController.m in Sources */,
 				EB562D38206E185A00505FEF /* main.m in Sources */,
 				EB562D2A206E185A00505FEF /* AppDelegate.m in Sources */,
+				EB562D66206E230E00505FEF /* ProtobufDemoPbuser.pbobjc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +654,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+				);
 				INFOPLIST_FILE = ProtobufDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.ProtobufDemo;
@@ -635,6 +674,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+				);
 				INFOPLIST_FILE = ProtobufDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.ProtobufDemo;
