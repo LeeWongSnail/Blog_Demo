@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ProtobufChatmessage.pbobjc.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    ChatMessage *message = [[ChatMessage alloc] init];
+    message.title = @"Lee";
+    message.body = @"Hom";
+    
+    NSData *data = [message data];
+    
+    
+    NSError *error = nil;
+    ChatMessage *msg = [ChatMessage parseFromData:data error:&error];
+    if (error) {
+        NSLog(@"parseData Error %@",error.localizedDescription);
+    } else {
+        NSLog(@"parseData Success");
+        NSLog(@"ChatMessage:title=%@ body=%@",msg.title,msg.body);
+    }
 }
 
 
