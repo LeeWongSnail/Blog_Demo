@@ -1,0 +1,123 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+# 工程名
+$project_name = "Fishing"
+# 工程名缩写
+$project_abbreviation = "Fishing"
+# plist文件的路径
+$info_plist_path = "/Users/leewong/Documents/Work/Movies/RollingStones/RollingStone/Fishing/Fishing/Info.plist"
+# firim api token
+$pgy_appkey = "d1360ddd52be78f3fae6db638767fa8b"
+# firim的短连接
+$pgy_userkey = "013b58368c60d44e31f71d7869b8368e"
+
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Push a new release build to the App Store"
+
+  before_all do
+    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+    cocoapods
+    # carthage
+  end
+
+  lane :release do
+
+  end
+
+
+  lane :upload_pgy do
+      # 先获取当前项目中的bundle version + 1
+      @build_version = get_info_plist_value(path: "#{$info_plist_path}", key: "CFBundleVersion").to_i + 1
+      # 针对于 iOS 项目开发证书和 Provision file 的下载工具
+      sigh(
+        development: true,# 配置证书类型，支持adhoc，development，force
+        output_path: "./fastlane/crets"# 证书保存的路径
+      )
+      # 设置 bundle version
+      set_info_plist_value(
+        path: "./so/Supporting Files/so-Info.plist", 
+        key: "CFBundleVersion", 
+        value: "#{@build_version}"
+      )
+
+      # 针对于 iOS 编译打包生成 ipa 文件
+      gym(
+        workspace: "#{$project_name}.xcworkspace",# 工作区
+        scheme: "#{$project_name}",# 工程名
+        clean: true,# archive前先clean一下
+        configuration: "Release",# 打debug包，默认为：'Release'
+        export_method: "development",# 导出存档的方法，支持app-store, ad-hoc, package, enterprise, development, developer-id
+        output_directory: "ipa_build/debug",# 输出ipa的路径
+        output_name: "#{$project_abbreviation}"# 输出ipa的名字
+      )
+
+    build_app(export_method: "development")
+    pgyer(api_key: "#{{$pgy_appkey}}", user_key: "#{{$pgy_userkey}}", update_description: "update by fastlane")
+  end
+
+
+# 发布到appstore
+  lane :upload_appstore do
+
+    # 先获取当前项目中的bundle version + 1
+    @build_version = get_info_plist_value(path: "#{$info_plist_path}", key: "CFBundleVersion").to_i + 1
+
+    # 针对于 iOS 项目开发证书和 Provision file 的下载工具
+    sigh(
+      force: true,
+      output_path: "./fastlane/crets"
+    )
+
+    # 设置 bundle version
+    set_info_plist_value(
+      path: "./so/Supporting Files/so-Info.plist", 
+      key: "CFBundleVersion", 
+      value: "#{@build_version}"
+    )
+
+    # 针对于 iOS 编译打包生成 ipa 文件
+    gym(
+      workspace: "#{$project_name}.xcworkspace",
+      scheme: "#{$project_name}",
+      clean: true,
+      configuration: "Release",
+      export_method: "app-store",
+      output_directory: "ipa_build/release",
+      output_name: "#{$project_abbreviation}"
+    )
+
+    # 用于上传应用的二进制代码，应用截屏和元数据到 App Store
+    deliver(
+      force: true,# 上传之前是否成html报告
+      submit_for_review: false,# 上传后自动提交审核
+      automatic_release: true,# 通过审后自动发布
+      skip_binary_upload: false,# 跳过上传二进制文件
+      skip_screenshots: true,# 是否跳过上传截图
+      skip_metadata: false,# 是否跳过元数据
+    )
+
+  end
+
+
+  after_all do |lane|
+    # This block is called, only if the executed lane was successful
+
+    # slack(
+    #   message: "Successfully deployed new App Update."
+    # )
+  end
+
+
+end
