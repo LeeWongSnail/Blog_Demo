@@ -1,0 +1,11 @@
+# 他会所有需要用到的证书传到git私有库上，任何需要配置的机器直接用match同步回来就不用管证书问题了
+git_url("https://gitee.com/leewong/CertManager.git")
+
+type("development") # The default type, can be: appstore, adhoc, enterprise or development
+
+
+# app_identifier(["com.ws.gsty"])
+# username("gunshitiyu@163.com") # Your Apple Developer Portal username
+
+# For all available options run `fastlane match --help`
+# Remove the # in the beginning of the line to enable the other options
