@@ -1,5 +1,5 @@
 //
-//  Animal.h
+//  methodSignatureObj.h
 //  RunTime_Demo
 //
 //  Created by LeeWong on 2018/4/9.
@@ -8,11 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Animal : NSObject
-
-- (void)animalEatGrass;
-
-- (void)forward;
-
+@interface methodSignatureObj : NSObject
 - (void)sign;
+- (void)signTest;
 @end

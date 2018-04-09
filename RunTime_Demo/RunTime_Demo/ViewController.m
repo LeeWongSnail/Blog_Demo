@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "Person.h"
+#import "resolveInstanceObj.h"
+#import "ForwardingTargetObj.h"
+#import "methodSignatureObj.h"
 
 @interface ViewController ()
 
@@ -18,10 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    Person *p = [[Person alloc] init];
-    [p eatGrass];
-    
+    methodSignatureObj *obj = [methodSignatureObj new];
+    [obj sign];
 }
 
 

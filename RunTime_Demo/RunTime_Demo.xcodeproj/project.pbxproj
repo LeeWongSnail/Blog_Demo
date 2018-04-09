@@ -15,8 +15,10 @@
 		EBBB2F4A207B05990006D6AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F49207B05990006D6AA /* main.m */; };
 		EBBB2F54207B05990006D6AA /* RunTime_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F53207B05990006D6AA /* RunTime_DemoTests.m */; };
 		EBBB2F5F207B05990006D6AA /* RunTime_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F5E207B05990006D6AA /* RunTime_DemoUITests.m */; };
-		EBBB2F6E207B05AB0006D6AA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F6D207B05AB0006D6AA /* Person.m */; };
+		EBBB2F6E207B05AB0006D6AA /* resolveInstanceObj.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F6D207B05AB0006D6AA /* resolveInstanceObj.m */; };
 		EBBB2F71207B07440006D6AA /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F70207B07440006D6AA /* Animal.m */; };
+		EBBB2F74207B0ADE0006D6AA /* ForwardingTargetObj.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F73207B0ADE0006D6AA /* ForwardingTargetObj.m */; };
+		EBBB2F77207B0D3E0006D6AA /* methodSignatureObj.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F76207B0D3E0006D6AA /* methodSignatureObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +55,14 @@
 		EBBB2F5A207B05990006D6AA /* RunTime_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTime_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBB2F5E207B05990006D6AA /* RunTime_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTime_DemoUITests.m; sourceTree = "<group>"; };
 		EBBB2F60207B05990006D6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBBB2F6C207B05AB0006D6AA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		EBBB2F6D207B05AB0006D6AA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EBBB2F6C207B05AB0006D6AA /* resolveInstanceObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resolveInstanceObj.h; sourceTree = "<group>"; };
+		EBBB2F6D207B05AB0006D6AA /* resolveInstanceObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = resolveInstanceObj.m; sourceTree = "<group>"; };
 		EBBB2F6F207B07440006D6AA /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		EBBB2F70207B07440006D6AA /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		EBBB2F72207B0ADE0006D6AA /* ForwardingTargetObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardingTargetObj.h; sourceTree = "<group>"; };
+		EBBB2F73207B0ADE0006D6AA /* ForwardingTargetObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardingTargetObj.m; sourceTree = "<group>"; };
+		EBBB2F75207B0D3E0006D6AA /* methodSignatureObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = methodSignatureObj.h; sourceTree = "<group>"; };
+		EBBB2F76207B0D3E0006D6AA /* methodSignatureObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = methodSignatureObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +122,14 @@
 				EBBB2F45207B05990006D6AA /* LaunchScreen.storyboard */,
 				EBBB2F48207B05990006D6AA /* Info.plist */,
 				EBBB2F49207B05990006D6AA /* main.m */,
-				EBBB2F6C207B05AB0006D6AA /* Person.h */,
-				EBBB2F6D207B05AB0006D6AA /* Person.m */,
+				EBBB2F6C207B05AB0006D6AA /* resolveInstanceObj.h */,
+				EBBB2F6D207B05AB0006D6AA /* resolveInstanceObj.m */,
 				EBBB2F6F207B07440006D6AA /* Animal.h */,
 				EBBB2F70207B07440006D6AA /* Animal.m */,
+				EBBB2F72207B0ADE0006D6AA /* ForwardingTargetObj.h */,
+				EBBB2F73207B0ADE0006D6AA /* ForwardingTargetObj.m */,
+				EBBB2F75207B0D3E0006D6AA /* methodSignatureObj.h */,
+				EBBB2F76207B0D3E0006D6AA /* methodSignatureObj.m */,
 			);
 			path = RunTime_Demo;
 			sourceTree = "<group>";
@@ -272,10 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBBB2F77207B0D3E0006D6AA /* methodSignatureObj.m in Sources */,
 				EBBB2F3F207B05980006D6AA /* ViewController.m in Sources */,
 				EBBB2F4A207B05990006D6AA /* main.m in Sources */,
 				EBBB2F71207B07440006D6AA /* Animal.m in Sources */,
-				EBBB2F6E207B05AB0006D6AA /* Person.m in Sources */,
+				EBBB2F74207B0ADE0006D6AA /* ForwardingTargetObj.m in Sources */,
+				EBBB2F6E207B05AB0006D6AA /* resolveInstanceObj.m in Sources */,
 				EBBB2F3C207B05980006D6AA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

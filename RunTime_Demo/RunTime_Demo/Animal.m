@@ -15,4 +15,14 @@
     NSLog(@"animal eat grass now");
 }
 
+- (void)forward
+{
+    NSLog(@"animal forward ing ...");
+}
+
+
+-(void)sign
+{
+    NSLog(@"animal sign ...");
+}
 @end

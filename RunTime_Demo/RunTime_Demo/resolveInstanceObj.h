@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject
+@interface resolveInstanceObj : NSObject
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, assign) NSInteger age;
 
