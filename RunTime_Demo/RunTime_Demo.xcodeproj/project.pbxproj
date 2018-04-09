@@ -19,6 +19,7 @@
 		EBBB2F7F207B19040006D6AA /* ForwardingTargetObj.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F7B207B19040006D6AA /* ForwardingTargetObj.m */; };
 		EBBB2F80207B19040006D6AA /* resolveInstanceObj.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F7C207B19040006D6AA /* resolveInstanceObj.m */; };
 		EBBB2F81207B19040006D6AA /* methodSignatureObj.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F7D207B19040006D6AA /* methodSignatureObj.m */; };
+		EBBB2F85207B3CA50006D6AA /* IMPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB2F84207B3CA50006D6AA /* IMPTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		EBBB2F7C207B19040006D6AA /* resolveInstanceObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resolveInstanceObj.m; sourceTree = "<group>"; };
 		EBBB2F7D207B19040006D6AA /* methodSignatureObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = methodSignatureObj.m; sourceTree = "<group>"; };
 		EBBB2F7E207B19040006D6AA /* ForwardingTargetObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardingTargetObj.h; sourceTree = "<group>"; };
+		EBBB2F83207B3CA50006D6AA /* IMPTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMPTestViewController.h; sourceTree = "<group>"; };
+		EBBB2F84207B3CA50006D6AA /* IMPTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMPTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 		EBBB2F39207B05980006D6AA /* RunTime_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				EBBB2F82207B3C7B0006D6AA /* IMP */,
 				EBBB2F78207B19040006D6AA /* MsgForward */,
 				EBBB2F3A207B05980006D6AA /* AppDelegate.h */,
 				EBBB2F3B207B05980006D6AA /* AppDelegate.m */,
@@ -158,6 +162,15 @@
 				EBBB2F7E207B19040006D6AA /* ForwardingTargetObj.h */,
 			);
 			path = MsgForward;
+			sourceTree = "<group>";
+		};
+		EBBB2F82207B3C7B0006D6AA /* IMP */ = {
+			isa = PBXGroup;
+			children = (
+				EBBB2F83207B3CA50006D6AA /* IMPTestViewController.h */,
+				EBBB2F84207B3CA50006D6AA /* IMPTestViewController.m */,
+			);
+			path = IMP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +310,7 @@
 				EBBB2F3C207B05980006D6AA /* AppDelegate.m in Sources */,
 				EBBB2F7F207B19040006D6AA /* ForwardingTargetObj.m in Sources */,
 				EBBB2F80207B19040006D6AA /* resolveInstanceObj.m in Sources */,
+				EBBB2F85207B3CA50006D6AA /* IMPTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
