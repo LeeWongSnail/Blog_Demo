@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    //父类会调用子类重载自己的方法 
+    //父类会调用子类重载自己的方法
     ChenPerson *p = [[ChenPerson alloc] init];
     p.lastName = @"wang";
     NSLog(@"%@",p.lastName);
