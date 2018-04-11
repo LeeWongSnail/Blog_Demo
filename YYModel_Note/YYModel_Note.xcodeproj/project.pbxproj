@@ -18,6 +18,8 @@
 		EBBB3090207CBBC10006D6AA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBBB308B207CBBC10006D6AA /* Info.plist */; };
 		EBBB3097207CBBFE0006D6AA /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB3094207CBBFE0006D6AA /* NSObject+YYModel.m */; };
 		EBBB3098207CBBFE0006D6AA /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB3095207CBBFE0006D6AA /* YYClassInfo.m */; };
+		EBBB309C207CBCCE0006D6AA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB309B207CBCCE0006D6AA /* User.m */; };
+		EBBB309E207CBDD30006D6AA /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = EBBB309D207CBDD30006D6AA /* user.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		EBBB3094207CBBFE0006D6AA /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
 		EBBB3095207CBBFE0006D6AA /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
 		EBBB3096207CBBFE0006D6AA /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		EBBB309A207CBCCE0006D6AA /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		EBBB309B207CBCCE0006D6AA /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		EBBB309D207CBDD30006D6AA /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,7 @@
 		EBBB3051207CBB9B0006D6AA /* YYModel_Note */ = {
 			isa = PBXGroup;
 			children = (
+				EBBB3099207CBCC00006D6AA /* SimpleModel */,
 				EBBB3091207CBBFE0006D6AA /* YYModel */,
 				EBBB3084207CBBC10006D6AA /* SupportingFiles */,
 				EBBB3052207CBB9B0006D6AA /* AppDelegate.h */,
@@ -152,13 +158,23 @@
 		EBBB3091207CBBFE0006D6AA /* YYModel */ = {
 			isa = PBXGroup;
 			children = (
-				EBBB3092207CBBFE0006D6AA /* YYClassInfo.h */,
 				EBBB3093207CBBFE0006D6AA /* YYModel.h */,
-				EBBB3094207CBBFE0006D6AA /* NSObject+YYModel.m */,
-				EBBB3095207CBBFE0006D6AA /* YYClassInfo.m */,
 				EBBB3096207CBBFE0006D6AA /* NSObject+YYModel.h */,
+				EBBB3094207CBBFE0006D6AA /* NSObject+YYModel.m */,
+				EBBB3092207CBBFE0006D6AA /* YYClassInfo.h */,
+				EBBB3095207CBBFE0006D6AA /* YYClassInfo.m */,
 			);
 			path = YYModel;
+			sourceTree = "<group>";
+		};
+		EBBB3099207CBCC00006D6AA /* SimpleModel */ = {
+			isa = PBXGroup;
+			children = (
+				EBBB309D207CBDD30006D6AA /* user.json */,
+				EBBB309A207CBCCE0006D6AA /* User.h */,
+				EBBB309B207CBCCE0006D6AA /* User.m */,
+			);
+			path = SimpleModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +284,7 @@
 				EBBB308E207CBBC10006D6AA /* Main.storyboard in Resources */,
 				EBBB308C207CBBC10006D6AA /* Assets.xcassets in Resources */,
 				EBBB308D207CBBC10006D6AA /* LaunchScreen.storyboard in Resources */,
+				EBBB309E207CBDD30006D6AA /* user.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +311,7 @@
 			files = (
 				EBBB3057207CBB9B0006D6AA /* ViewController.m in Sources */,
 				EBBB308F207CBBC10006D6AA /* main.m in Sources */,
+				EBBB309C207CBCCE0006D6AA /* User.m in Sources */,
 				EBBB3054207CBB9B0006D6AA /* AppDelegate.m in Sources */,
 				EBBB3098207CBBFE0006D6AA /* YYClassInfo.m in Sources */,
 				EBBB3097207CBBFE0006D6AA /* NSObject+YYModel.m in Sources */,
