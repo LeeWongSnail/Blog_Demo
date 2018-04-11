@@ -18,9 +18,48 @@
     return [LeeUser class];
 }
 
+
+- (void)setName:(NSString *)name
+{
+    _name = name;
+    NSLog(@"%s",__func__);
+}
+
+- (void)setUid:(UInt64)uid
+{
+    _uid = uid;
+    NSLog(@"%s",__func__);
+
+}
+
+- (void)setCreated:(NSDate *)created
+{
+    _created = created;
+    NSLog(@"%s",__func__);
+
+}
+
 @end
 
 
 @implementation LeeUser
+- (void)setName:(NSString *)name
+{
+    _name = name;
+    NSLog(@"%s",__func__);
+}
 
+- (void)setUid:(UInt64)uid
+{
+    _uid = uid;
+    NSLog(@"%s",__func__);
+    
+}
+
+- (void)setCreated:(NSDate *)created
+{
+    _created = created;
+    NSLog(@"%s",__func__);
+    
+}
 @end

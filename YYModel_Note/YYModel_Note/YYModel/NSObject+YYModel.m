@@ -1573,15 +1573,19 @@ static NSString *ModelDescription(NSObject *model) {
     context.model = (__bridge void *)(self);
     context.dictionary = (__bridge void *)(dic);
     
-    
+    //开始转模型
+    //模型中key的个数 大于字典中key的个数
     if (modelMeta->_keyMappedCount >= CFDictionaryGetCount((CFDictionaryRef)dic)) {
+        //对字典中的每个元素都执行ModelSetWithDictionaryFunction 方法
         CFDictionaryApplyFunction((CFDictionaryRef)dic, ModelSetWithDictionaryFunction, &context);
+        //如果这中间存在_keyPathPropertyMetas 那么执行对应的方法
         if (modelMeta->_keyPathPropertyMetas) {
             CFArrayApplyFunction((CFArrayRef)modelMeta->_keyPathPropertyMetas,
                                  CFRangeMake(0, CFArrayGetCount((CFArrayRef)modelMeta->_keyPathPropertyMetas)),
                                  ModelSetWithPropertyMetaArrayFunction,
                                  &context);
         }
+        //如果存在一对多的情况
         if (modelMeta->_multiKeysPropertyMetas) {
             CFArrayApplyFunction((CFArrayRef)modelMeta->_multiKeysPropertyMetas,
                                  CFRangeMake(0, CFArrayGetCount((CFArrayRef)modelMeta->_multiKeysPropertyMetas)),
@@ -1589,12 +1593,13 @@ static NSString *ModelDescription(NSObject *model) {
                                  &context);
         }
     } else {
+        //直接转
         CFArrayApplyFunction((CFArrayRef)modelMeta->_allPropertyMetas,
                              CFRangeMake(0, modelMeta->_keyMappedCount),
                              ModelSetWithPropertyMetaArrayFunction,
                              &context);
     }
-    
+    //如果
     if (modelMeta->_hasCustomTransformFromDictionary) {
         return [((id<YYModel>)self) modelCustomTransformFromDictionary:dic];
     }

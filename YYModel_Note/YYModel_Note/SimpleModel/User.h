@@ -9,14 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface User : NSObject 
-@property UInt64 uid;
-@property NSString *name;
-@property NSDate *created;
+@interface User : NSObject
+@property (nonatomic, assign) UInt64 uid;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, strong) NSDate *created;
 @end
 
 @interface LeeUser : NSObject
-@property UInt64 uid;
-@property NSString *name;
-@property NSDate *created;
+@property (nonatomic, assign) UInt64 uid;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, strong) NSDate *created;
 @end
