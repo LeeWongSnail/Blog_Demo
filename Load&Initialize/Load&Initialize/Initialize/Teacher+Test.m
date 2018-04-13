@@ -9,8 +9,8 @@
 #import "Teacher+Test.h"
 
 @implementation Teacher (Test)
-//+ (void)initialize
-//{
-//    NSLog(@"%s",__func__);
-//}
++ (void)initialize
+{
+    NSLog(@"%s",__func__);
+}
 @end
