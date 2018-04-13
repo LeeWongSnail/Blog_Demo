@@ -1,5 +1,7 @@
 # +Load 和 +Initialize 用法
 
+这里只讲结果,具体的原理请参考文章末尾的文章！
+
 ### +Load 方法 在main函数执行之前被调用
 
 因为是编译的时候被调用,因此 只要类实现了+load方法都会被调用。不同类或者有继承关系的类中+load的调用顺序是由文件的编译顺序决定的。
@@ -36,4 +38,7 @@
 是否沿用父类的实现 |	否 |	是
 分类中的实现 |	类和分类都执行 |	覆盖类中的方法，只执行分类的实现
 
+## 参考文章
+
+[Objective-C +load vs +initialize](http://blog.leichunfeng.com/blog/2015/05/02/objective-c-plus-load-vs-plus-initialize/)
 
