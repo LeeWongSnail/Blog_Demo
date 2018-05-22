@@ -6,16 +6,16 @@
 //  Copyright © 2018年 LeeWong. All rights reserved.
 //
 
-#import "ImageView.h"
+#import "LeeTileImageView.h"
 
-@interface ImageView()
+@interface LeeTileImageView()
 
 @property (nonatomic, strong) UIImage *image;
 @property (nonatomic, assign) CGRect imageRect;
 @property (nonatomic, assign) CGFloat imageScale;
 @end
 
-@implementation ImageView
+@implementation LeeTileImageView
 
 + (Class)layerClass {
     return [CATiledLayer class];

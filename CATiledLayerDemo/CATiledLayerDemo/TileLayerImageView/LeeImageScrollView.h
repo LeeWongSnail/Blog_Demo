@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ImageScrollView : UIScrollView
+@interface LeeImageScrollView : UIScrollView
 -(id)initWithFrame:(CGRect)frame image:(UIImage*)img;
 @end

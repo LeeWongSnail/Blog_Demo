@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "ImageScrollView.h"
+#import "LeeImageScrollView.h"
 @interface ViewController ()
-@property (strong, nonatomic) ImageScrollView *imageScrollView;
+@property (strong, nonatomic) LeeImageScrollView *imageScrollView;
 @property (nonatomic, strong) UIImage *largeImage;
 @end
 
@@ -24,7 +24,7 @@
     [self.imageScrollView removeFromSuperview];
     self.largeImage = [UIImage imageWithData:data];
     
-    self.imageScrollView = [[ImageScrollView alloc] initWithFrame:self.view.bounds
+    self.imageScrollView = [[LeeImageScrollView alloc] initWithFrame:self.view.bounds
                                                             image:self.largeImage];
     
     [self.view addSubview:self.imageScrollView];

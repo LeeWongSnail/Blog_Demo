@@ -6,18 +6,18 @@
 //  Copyright © 2018年 LeeWong. All rights reserved.
 //
 
-#import "ImageScrollView.h"
-#import "ImageView.h"
+#import "LeeImageScrollView.h"
+#import "LeeTileImageView.h"
 
-@interface ImageScrollView () <UIScrollViewDelegate>
+@interface LeeImageScrollView () <UIScrollViewDelegate>
 
 @property (nonatomic, strong) UIImage *image;
 @property (nonatomic, assign) CGFloat imageScale;
-@property (nonatomic, strong) ImageView *frontTiledView;
+@property (nonatomic, strong) LeeTileImageView *frontTiledView;
 
 @end
 
-@implementation ImageScrollView
+@implementation LeeImageScrollView
 
 -(id)initWithFrame:(CGRect)frame image:(UIImage*)img {
     if((self = [super initWithFrame:frame])) {
@@ -54,7 +54,7 @@
         self.maximumZoomScale =zoomInLevels;
         self.minimumZoomScale = zoomOutLevels;
         
-        _frontTiledView = [[ImageView alloc] initWithFrame:imageRect
+        _frontTiledView = [[LeeTileImageView alloc] initWithFrame:imageRect
                                                                image:_image
                                                                scale:_imageScale];
         [self addSubview:_frontTiledView];
