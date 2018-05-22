@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		EB4B1AAA20B3C1FF00207701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1AA920B3C1FF00207701 /* AppDelegate.m */; };
 		EB4B1AAD20B3C1FF00207701 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1AAC20B3C1FF00207701 /* ViewController.m */; };
-		EB4B1AB020B3C1FF00207701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4B1AAE20B3C1FF00207701 /* Main.storyboard */; };
-		EB4B1AB220B3C20000207701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4B1AB120B3C20000207701 /* Assets.xcassets */; };
-		EB4B1AB520B3C20000207701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4B1AB320B3C20000207701 /* LaunchScreen.storyboard */; };
-		EB4B1AB820B3C20000207701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1AB720B3C20000207701 /* main.m */; };
 		EB4B1AC220B3C20000207701 /* OOCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1AC120B3C20000207701 /* OOCalculatorTests.m */; };
 		EB4B1ACD20B3C20000207701 /* OOCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1ACC20B3C20000207701 /* OOCalculatorUITests.m */; };
+		EB4B1AE220B3C27A00207701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4B1ADB20B3C27A00207701 /* Assets.xcassets */; };
+		EB4B1AE320B3C27A00207701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4B1ADC20B3C27A00207701 /* LaunchScreen.storyboard */; };
+		EB4B1AE420B3C27A00207701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4B1ADE20B3C27A00207701 /* Main.storyboard */; };
+		EB4B1AE520B3C27A00207701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1AE020B3C27A00207701 /* main.m */; };
+		EB4B1AE620B3C27A00207701 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB4B1AE120B3C27A00207701 /* Info.plist */; };
+		EB4B1AE920B3C28D00207701 /* Operator.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1AE820B3C28D00207701 /* Operator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,17 +42,19 @@
 		EB4B1AA920B3C1FF00207701 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EB4B1AAB20B3C1FF00207701 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EB4B1AAC20B3C1FF00207701 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EB4B1AAF20B3C1FF00207701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EB4B1AB120B3C20000207701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EB4B1AB420B3C20000207701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EB4B1AB620B3C20000207701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB4B1AB720B3C20000207701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB4B1ABD20B3C20000207701 /* OOCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4B1AC120B3C20000207701 /* OOCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOCalculatorTests.m; sourceTree = "<group>"; };
 		EB4B1AC320B3C20000207701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB4B1AC820B3C20000207701 /* OOCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4B1ACC20B3C20000207701 /* OOCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOCalculatorUITests.m; sourceTree = "<group>"; };
 		EB4B1ACE20B3C20000207701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4B1ADB20B3C27A00207701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB4B1ADD20B3C27A00207701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB4B1ADF20B3C27A00207701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB4B1AE020B3C27A00207701 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB4B1AE120B3C27A00207701 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4B1AE720B3C28D00207701 /* Operator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operator.h; sourceTree = "<group>"; };
+		EB4B1AE820B3C28D00207701 /* Operator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Operator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +109,9 @@
 				EB4B1AA920B3C1FF00207701 /* AppDelegate.m */,
 				EB4B1AAB20B3C1FF00207701 /* ViewController.h */,
 				EB4B1AAC20B3C1FF00207701 /* ViewController.m */,
-				EB4B1AAE20B3C1FF00207701 /* Main.storyboard */,
-				EB4B1AB120B3C20000207701 /* Assets.xcassets */,
-				EB4B1AB320B3C20000207701 /* LaunchScreen.storyboard */,
-				EB4B1AB620B3C20000207701 /* Info.plist */,
-				EB4B1AB720B3C20000207701 /* main.m */,
+				EB4B1ADA20B3C27A00207701 /* SupportingFiles */,
+				EB4B1AE720B3C28D00207701 /* Operator.h */,
+				EB4B1AE820B3C28D00207701 /* Operator.m */,
 			);
 			path = OOCalculator;
 			sourceTree = "<group>";
@@ -130,6 +132,18 @@
 				EB4B1ACE20B3C20000207701 /* Info.plist */,
 			);
 			path = OOCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		EB4B1ADA20B3C27A00207701 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EB4B1ADB20B3C27A00207701 /* Assets.xcassets */,
+				EB4B1ADC20B3C27A00207701 /* LaunchScreen.storyboard */,
+				EB4B1ADE20B3C27A00207701 /* Main.storyboard */,
+				EB4B1AE020B3C27A00207701 /* main.m */,
+				EB4B1AE120B3C27A00207701 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4B1AB520B3C20000207701 /* LaunchScreen.storyboard in Resources */,
-				EB4B1AB220B3C20000207701 /* Assets.xcassets in Resources */,
-				EB4B1AB020B3C1FF00207701 /* Main.storyboard in Resources */,
+				EB4B1AE620B3C27A00207701 /* Info.plist in Resources */,
+				EB4B1AE420B3C27A00207701 /* Main.storyboard in Resources */,
+				EB4B1AE220B3C27A00207701 /* Assets.xcassets in Resources */,
+				EB4B1AE320B3C27A00207701 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB4B1AAD20B3C1FF00207701 /* ViewController.m in Sources */,
-				EB4B1AB820B3C20000207701 /* main.m in Sources */,
+				EB4B1AE920B3C28D00207701 /* Operator.m in Sources */,
+				EB4B1AE520B3C27A00207701 /* main.m in Sources */,
 				EB4B1AAA20B3C1FF00207701 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,20 +316,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EB4B1AAE20B3C1FF00207701 /* Main.storyboard */ = {
+		EB4B1ADC20B3C27A00207701 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EB4B1AAF20B3C1FF00207701 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EB4B1AB320B3C20000207701 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB4B1AB420B3C20000207701 /* Base */,
+				EB4B1ADD20B3C27A00207701 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EB4B1ADE20B3C27A00207701 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4B1ADF20B3C27A00207701 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,7 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XWNPFKK4U5;
-				INFOPLIST_FILE = OOCalculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OOCalculator/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XWNPFKK4U5;
-				INFOPLIST_FILE = OOCalculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OOCalculator/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
