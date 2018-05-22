@@ -19,8 +19,8 @@
 
 @implementation LeeImageScrollView
 
--(id)initWithFrame:(CGRect)frame image:(UIImage*)img {
-    if((self = [super initWithFrame:frame])) {
+- (instancetype)initWithFrame:(CGRect)aFrame image:(UIImage *)aImage {
+    if((self = [super initWithFrame:aFrame])) {
         // Set up the UIScrollView
         self.showsVerticalScrollIndicator = NO;
         self.showsHorizontalScrollIndicator = NO;
@@ -30,7 +30,7 @@
         self.backgroundColor = [UIColor colorWithRed:0.4f green:0.2f blue:0.2f alpha:1.0f];
         
         // 根据图片实际尺寸和屏幕尺寸计算图片视图的尺寸
-        self.image = img;
+        self.image = aImage;
         CGRect imageRect = CGRectMake(
                                       0.0f,
                                       0.0f,

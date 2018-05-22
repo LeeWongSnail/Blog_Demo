@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LeeImageScrollView : UIScrollView
--(id)initWithFrame:(CGRect)frame image:(UIImage*)img;
+-(instancetype)initWithFrame:(CGRect)aFrame image:(UIImage*)aImage;
 @end

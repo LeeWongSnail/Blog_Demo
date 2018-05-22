@@ -17,7 +17,37 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNX-ey-754">
+                                <rect key="frame" x="259" y="580" width="84" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ITE-P1-CR8"/>
+                                    <constraint firstAttribute="width" constant="84" id="icx-kQ-evg"/>
+                                </constraints>
+                                <state key="normal" title="tilelayer加载"/>
+                                <connections>
+                                    <action selector="tileLoad:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y5D-Wo-PHz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v01-SY-lVH">
+                                <rect key="frame" x="29" y="580" width="92" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AOM-pW-1B0"/>
+                                    <constraint firstAttribute="width" constant="92" id="G1G-Oi-mHc"/>
+                                </constraints>
+                                <state key="normal" title="普通方式加载"/>
+                                <connections>
+                                    <action selector="normalLoad:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t1S-bg-oKC"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rNX-ey-754" secondAttribute="bottom" constant="57" id="Ktd-5M-h2R"/>
+                            <constraint firstItem="v01-SY-lVH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="f9E-O3-vCj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v01-SY-lVH" secondAttribute="bottom" constant="57" id="gLg-yG-7zf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rNX-ey-754" secondAttribute="trailing" constant="32" id="tSh-95-pBC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

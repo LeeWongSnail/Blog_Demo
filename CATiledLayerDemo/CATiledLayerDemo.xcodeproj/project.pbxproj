@@ -107,7 +107,7 @@
 		EB4B1A5A20B29EE300207701 /* CATiledLayerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EB4B1A9520B3BBD400207701 /* TileLayerImageView */,
+				EB4B1A9520B3BBD400207701 /* LeeTileLayerImageView */,
 				EB4B1A5B20B29EE300207701 /* AppDelegate.h */,
 				EB4B1A5C20B29EE300207701 /* AppDelegate.m */,
 				EB4B1A5E20B29EE300207701 /* ViewController.h */,
@@ -139,7 +139,7 @@
 			path = CATiledLayerDemoUITests;
 			sourceTree = "<group>";
 		};
-		EB4B1A9520B3BBD400207701 /* TileLayerImageView */ = {
+		EB4B1A9520B3BBD400207701 /* LeeTileLayerImageView */ = {
 			isa = PBXGroup;
 			children = (
 				EB4B1A9620B3BBD400207701 /* LeeImageScrollView.h */,
@@ -147,7 +147,7 @@
 				EB4B1A9720B3BBD400207701 /* LeeTileImageView.h */,
 				EB4B1A9920B3BBD400207701 /* LeeTileImageView.m */,
 			);
-			path = TileLayerImageView;
+			path = LeeTileLayerImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
