@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LeeTileImageView : UIView
--(id)initWithFrame:(CGRect)_frame image:(UIImage*)img scale:(CGFloat)scale;
+-(id)initWithFrame:(CGRect)aFrame image:(UIImage*)aImage scale:(CGFloat)aScale;
 @end
