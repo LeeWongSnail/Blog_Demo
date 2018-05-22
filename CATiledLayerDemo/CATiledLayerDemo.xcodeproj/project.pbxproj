@@ -15,6 +15,9 @@
 		EB4B1A6B20B29EE400207701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1A6A20B29EE400207701 /* main.m */; };
 		EB4B1A7520B29EE400207701 /* CATiledLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1A7420B29EE400207701 /* CATiledLayerDemoTests.m */; };
 		EB4B1A8020B29EE400207701 /* CATiledLayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1A7F20B29EE400207701 /* CATiledLayerDemoUITests.m */; };
+		EB4B1A8E20B2A07800207701 /* chinamap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB4B1A8D20B2A07800207701 /* chinamap.jpg */; };
+		EB4B1A9120B3B21B00207701 /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1A9020B3B21B00207701 /* ImageScrollView.m */; };
+		EB4B1A9420B3B7A400207701 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B1A9320B3B7A300207701 /* ImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		EB4B1A7B20B29EE400207701 /* CATiledLayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATiledLayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4B1A7F20B29EE400207701 /* CATiledLayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATiledLayerDemoUITests.m; sourceTree = "<group>"; };
 		EB4B1A8120B29EE400207701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4B1A8D20B2A07800207701 /* chinamap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chinamap.jpg; sourceTree = "<group>"; };
+		EB4B1A8F20B3B21B00207701 /* ImageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
+		EB4B1A9020B3B21B00207701 /* ImageScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
+		EB4B1A9220B3B7A300207701 /* ImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		EB4B1A9320B3B7A300207701 /* ImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,11 @@
 				EB4B1A6620B29EE400207701 /* LaunchScreen.storyboard */,
 				EB4B1A6920B29EE400207701 /* Info.plist */,
 				EB4B1A6A20B29EE400207701 /* main.m */,
+				EB4B1A8D20B2A07800207701 /* chinamap.jpg */,
+				EB4B1A8F20B3B21B00207701 /* ImageScrollView.h */,
+				EB4B1A9020B3B21B00207701 /* ImageScrollView.m */,
+				EB4B1A9220B3B7A300207701 /* ImageView.h */,
+				EB4B1A9320B3B7A300207701 /* ImageView.m */,
 			);
 			path = CATiledLayerDemo;
 			sourceTree = "<group>";
@@ -237,6 +250,7 @@
 			files = (
 				EB4B1A6820B29EE400207701 /* LaunchScreen.storyboard in Resources */,
 				EB4B1A6520B29EE400207701 /* Assets.xcassets in Resources */,
+				EB4B1A8E20B2A07800207701 /* chinamap.jpg in Resources */,
 				EB4B1A6320B29EE300207701 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB4B1A6020B29EE300207701 /* ViewController.m in Sources */,
+				EB4B1A9420B3B7A400207701 /* ImageView.m in Sources */,
+				EB4B1A9120B3B21B00207701 /* ImageScrollView.m in Sources */,
 				EB4B1A6B20B29EE400207701 /* main.m in Sources */,
 				EB4B1A5D20B29EE300207701 /* AppDelegate.m in Sources */,
 			);
