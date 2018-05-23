@@ -1,5 +1,5 @@
 //
-//  Operator.m
+//  AddOperator.h
 //  OOCalculator
 //
 //  Created by LeeWong on 2018/5/22.
@@ -8,6 +8,8 @@
 
 #import "Operator.h"
 
-@implementation Operator
+@interface AddOperator : Operator
+
+- (CGFloat)calculateWithValue:(CGFloat)value1 value2:(CGFloat)value2;
 
 @end

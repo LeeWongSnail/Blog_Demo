@@ -7,10 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 
 @interface Operator : NSObject
 
+- (instancetype)initWithOptStr:(NSString *)aOpt;
+
+
+- (CGFloat)calculateWithValue:(CGFloat)value1 value2:(CGFloat)value2;
 
 
 @end
