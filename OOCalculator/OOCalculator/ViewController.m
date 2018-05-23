@@ -27,6 +27,7 @@
 
 - (void)separtString
 {
+    //这个正则表达式表示不会写呀
     NSString *parten = @"[+-]";
     
     NSError* error = NULL;
@@ -72,8 +73,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
-    
 }
 
 - (IBAction)calculatorDidClick:(UIButton *)sender {
@@ -96,14 +95,14 @@
         //删除这个运算符
         NSMutableArray *tempOpt = [NSMutableArray arrayWithArray:self.opts];
         [tempOpt removeObjectAtIndex:index];
+        
         self.opts = [tempOpt copy];
         
         //删除对应的两个数 插入新的数
         NSMutableArray *tempNum = [NSMutableArray arrayWithArray:self.nums];
-        if (tempNum.count > 2) {
-            [tempNum replaceObjectAtIndex:index+1 withObject:[NSString stringWithFormat:@"%f",res]];
-            [tempNum removeObjectAtIndex:index];
-        }
+        [tempNum replaceObjectAtIndex:index+1 withObject:[NSString stringWithFormat:@"%f",res]];
+        [tempNum removeObjectAtIndex:index];
+        
         self.nums = [tempNum copy];
     }
     
