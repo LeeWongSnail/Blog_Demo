@@ -49,7 +49,7 @@
             
             //range表示的是运算符号出现的位置
             
-            NSString *num = [str substringWithRange:NSMakeRange(startIndex, range.location)];
+            NSString *num = [str substringWithRange:NSMakeRange(startIndex, range.location-startIndex)];
             [nums addObject:num];
             
             NSString *opt = [str substringWithRange:range];
@@ -80,11 +80,34 @@
     //将给定的字符串分成两个数组 运算符数组和运算数的数组
     [self separtString];
     
-    //遍历运算符的数组(先考虑两个数字的运算)
-    Operator *op = [[Operator alloc] initWithOptStr:self.opts.firstObject];
+    //遍历这个运算符数组 知道数组为空
+    CGFloat res = 0;
+    while (self.opts.count > 0) {
+        //找到所有运算符中优先级最高的
+        NSInteger index = [Operator indexOfMostValueableOperator:self.opts];
+        Operator *op = [[Operator alloc] initWithOptStr:self.opts[index]];
+        //第index个运算符 对应第index和index+1个数字
+        CGFloat num1 = [self.nums[index] floatValue];
+        CGFloat num2 = [self.nums[index + 1] floatValue];
+        
+        //取出两个对应的数之后,对这两个数进行计算
+        res = [op calculateWithValue:num1 value2:num2];
+        
+        //删除这个运算符
+        NSMutableArray *tempOpt = [NSMutableArray arrayWithArray:self.opts];
+        [tempOpt removeObjectAtIndex:index];
+        self.opts = [tempOpt copy];
+        
+        //删除对应的两个数 插入新的数
+        NSMutableArray *tempNum = [NSMutableArray arrayWithArray:self.nums];
+        if (tempNum.count > 2) {
+            [tempNum replaceObjectAtIndex:index+1 withObject:[NSString stringWithFormat:@"%f",res]];
+            [tempNum removeObjectAtIndex:index];
+        }
+        self.nums = [tempNum copy];
+    }
     
-    self.inputTextField.text = [NSString stringWithFormat:@"%f",[op calculateWithValue:[self.nums[0] floatValue] value2:[self.nums[1] floatValue]]];
-    
+    self.inputTextField.text = [NSString stringWithFormat:@"%f",res];
     
 }
 

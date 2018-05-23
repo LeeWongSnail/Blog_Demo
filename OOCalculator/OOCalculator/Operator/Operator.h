@@ -9,6 +9,15 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+static NSDictionary<NSString *, NSString *> *leeCalculateLevelDic(){
+    
+    return @{@"+":@"1",
+             @"-":@"1",
+             @"*":@"2",
+             @"/":@"2"
+             };
+}
+
 
 @interface Operator : NSObject
 
@@ -17,5 +26,8 @@
 
 - (CGFloat)calculateWithValue:(CGFloat)value1 value2:(CGFloat)value2;
 
+
+
++ (NSInteger)indexOfMostValueableOperator:(NSArray *)opts;
 
 @end

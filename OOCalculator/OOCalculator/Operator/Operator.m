@@ -13,6 +13,8 @@
 #import "DivisionOperator.h"
 
 
+
+
 static NSDictionary<NSString *, NSString *> *leeCalculateDic(){
     
     return @{@"+":@"AddOperator",
@@ -21,6 +23,8 @@ static NSDictionary<NSString *, NSString *> *leeCalculateDic(){
              @"/":@"DivisionOperator"
              };
 }
+
+
 
 @interface Operator ()
 
@@ -40,6 +44,33 @@ static NSDictionary<NSString *, NSString *> *leeCalculateDic(){
     id obj = [NSClassFromString(cls) new];
     
     return obj;
+}
+
++ (NSInteger)indexOfMostValueableOperator:(NSArray *)opts
+{
+    if (opts.count == 0) {
+        return -1;
+    }
+    __block NSInteger index = -1;
+    __block NSInteger level = 0;
+    [opts enumerateObjectsUsingBlock:^(NSString *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        //通过比较找到优先级最高的
+        if ([leeCalculateLevelDic()[obj] integerValue] > level) {
+            index = idx;
+            level = [leeCalculateLevelDic()[obj] integerValue];
+        }
+    }];
+    
+    return index;
+}
+
+- (NSArray *)sortCalculateOperator:(NSArray *)opts
+{
+    NSMutableArray *arrM = [NSMutableArray array];
+    
+    
+    
+    return [arrM copy];
 }
 
 @end
