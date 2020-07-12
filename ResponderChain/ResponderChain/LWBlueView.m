@@ -7,7 +7,7 @@
 //
 
 #import "LWBlueView.h"
-#import "LWBlackView.h"
+#import "LWBrownView.h"
 #import "LWGreenView.h"
 
 @implementation LWBlueView
@@ -25,7 +25,7 @@
     LWGreenView *greenView = [[LWGreenView alloc] initWithFrame:CGRectMake(25, 50, 300, 200)];
     [self addSubview:greenView];
 
-    LWBlackView *blackView = [[LWBlackView alloc] initWithFrame:CGRectMake(25, 260, 300, 20)];
+    LWBrownView *blackView = [[LWBrownView alloc] initWithFrame:CGRectMake(25, 260, 275, 20)];
     [self addSubview:blackView];
 }
 @end

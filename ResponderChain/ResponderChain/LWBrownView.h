@@ -1,5 +1,5 @@
 //
-//  LWBlackView.h
+//  LWBrownView.h
 //  ResponderChain
 //
 //  Created by LeeWong on 2020/7/11.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LWBlackView : UIView
+@interface LWBrownView : UIView
 
 @end
 

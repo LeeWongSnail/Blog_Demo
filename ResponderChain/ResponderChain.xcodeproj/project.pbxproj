@@ -22,7 +22,7 @@
 		EB24502624B95D870027FC35 /* LWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24502524B95D870027FC35 /* LWButton.m */; };
 		EB24502924B962210027FC35 /* LWSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24502824B962210027FC35 /* LWSubViewController.m */; };
 		EB24502C24B9688C0027FC35 /* LWCyanView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24502B24B9688C0027FC35 /* LWCyanView.m */; };
-		EB24502F24B97E0C0027FC35 /* LWBlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24502E24B97E0C0027FC35 /* LWBlackView.m */; };
+		EB24502F24B97E0C0027FC35 /* LWBrownView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24502E24B97E0C0027FC35 /* LWBrownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,8 +54,8 @@
 		EB24502824B962210027FC35 /* LWSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWSubViewController.m; sourceTree = "<group>"; };
 		EB24502A24B9688C0027FC35 /* LWCyanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCyanView.h; sourceTree = "<group>"; };
 		EB24502B24B9688C0027FC35 /* LWCyanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCyanView.m; sourceTree = "<group>"; };
-		EB24502D24B97E0C0027FC35 /* LWBlackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWBlackView.h; sourceTree = "<group>"; };
-		EB24502E24B97E0C0027FC35 /* LWBlackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBlackView.m; sourceTree = "<group>"; };
+		EB24502D24B97E0C0027FC35 /* LWBrownView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWBrownView.h; sourceTree = "<group>"; };
+		EB24502E24B97E0C0027FC35 /* LWBrownView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBrownView.m; sourceTree = "<group>"; };
 		F38C407E8E3662890F6D7346 /* Pods-ResponderChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResponderChain.release.xcconfig"; path = "Target Support Files/Pods-ResponderChain/Pods-ResponderChain.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,8 +134,8 @@
 				EB24502824B962210027FC35 /* LWSubViewController.m */,
 				EB24502A24B9688C0027FC35 /* LWCyanView.h */,
 				EB24502B24B9688C0027FC35 /* LWCyanView.m */,
-				EB24502D24B97E0C0027FC35 /* LWBlackView.h */,
-				EB24502E24B97E0C0027FC35 /* LWBlackView.m */,
+				EB24502D24B97E0C0027FC35 /* LWBrownView.h */,
+				EB24502E24B97E0C0027FC35 /* LWBrownView.m */,
 			);
 			path = ResponderChain;
 			sourceTree = "<group>";
@@ -261,7 +261,7 @@
 				EB24501A24B95CB00027FC35 /* UIResponder+LW.m in Sources */,
 				EB24500124B95AE40027FC35 /* AppDelegate.m in Sources */,
 				EB24501D24B95D540027FC35 /* LWBlueView.m in Sources */,
-				EB24502F24B97E0C0027FC35 /* LWBlackView.m in Sources */,
+				EB24502F24B97E0C0027FC35 /* LWBrownView.m in Sources */,
 				EB24501224B95AE60027FC35 /* main.m in Sources */,
 				EB24500424B95AE40027FC35 /* SceneDelegate.m in Sources */,
 				EB24502624B95D870027FC35 /* LWButton.m in Sources */,

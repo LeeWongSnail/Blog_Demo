@@ -29,6 +29,10 @@
     [button setTitleColor:[UIColor yellowColor] forState:UIControlStateNormal];
     button.frame = CGRectMake(50, 15, 150, 50);
     [self addSubview:button];
+
+    NSURL *url = [NSURL URLWithString:@"A://B/C?id=1"];
+    NSLog(@"%@",[url pathComponents].firstObject);
+
     [button addTarget:self action:@selector(buttonDidClick) forControlEvents:UIControlEventTouchUpInside];
 }
 

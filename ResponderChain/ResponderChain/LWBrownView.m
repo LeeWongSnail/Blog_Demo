@@ -1,19 +1,19 @@
 //
-//  LWBlackView.m
+//  LWBrownView.m
 //  ResponderChain
 //
 //  Created by LeeWong on 2020/7/11.
 //  Copyright © 2020 LeeWong. All rights reserved.
 //
 
-#import "LWBlackView.h"
+#import "LWBrownView.h"
 #import "UIResponder+LW.h"
 
-@implementation LWBlackView
+@implementation LWBrownView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.backgroundColor = [UIColor blackColor];
+        self.backgroundColor = [UIColor brownColor];
     }
     return self;
 }

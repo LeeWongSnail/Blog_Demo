@@ -34,7 +34,9 @@
 }
 
 - (void)buttonDidClick {
-    [self routerEventWithName:@":LWButton DidClick" userInfo:@{@"test":@"test"}];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(cyanViewButtonDidClick:)]) {
+        [self.delegate cyanViewButtonDidClick:self];
+    }
 }
 
 - (void)routerEventWithName:(NSString *)eventName userInfo:(NSDictionary *)userInfo {

@@ -11,7 +11,7 @@
 @implementation UIResponder (LW)
 - (void)routerEventWithName:(NSString *)eventName userInfo:(NSDictionary *)userInfo
 {
-//    NSString *newName = [NSString stringWithFormat:@"%@--%@",NSStringFromClass(self.class),eventName];
-    [[self nextResponder] routerEventWithName:eventName userInfo:userInfo];
+    NSString *newName = [NSString stringWithFormat:@"%@--%@",NSStringFromClass(self.class),eventName];
+    [[self nextResponder] routerEventWithName:newName userInfo:userInfo];
 }
 @end
