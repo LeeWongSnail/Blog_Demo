@@ -36,6 +36,7 @@
     [button addTarget:self action:@selector(buttonDidClick) forControlEvents:UIControlEventTouchUpInside];
 }
 
+
 - (void)buttonDidClick {
     [self routerEventWithName:@":LWButton DidClick" userInfo:@{@"test":@"test"}];
 }

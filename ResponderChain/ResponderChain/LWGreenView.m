@@ -21,7 +21,6 @@
     return self;
 }
 
-
 - (void)buildUI {
     LWPurpleView *greenView = [[LWPurpleView alloc] initWithFrame:CGRectMake(25, 10, 250, 80)];
     [self addSubview:greenView];
