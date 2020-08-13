@@ -1,0 +1,81 @@
+# CocoaPods资源地址
+source 'https://github.com/CocoaPods/Specs.git'
+# 阿里云资源地址
+source 'https://github.com/aliyun/aliyun-specs.git'
+
+# 阿里云SDK
+def aliyunsdks
+  # 阿里云 DNS
+  pod 'AlicloudHTTPDNS' , '= 1.6.10'
+  # 阿里云 AliyunOSSiOS
+  pod 'AliyunOSSiOS', '= 2.6.3'
+end
+
+
+
+# 友盟SDK
+def umeng
+  pod 'UMCCommon' , '= 2.1.1'
+  pod 'UMCAnalytics' , '= 6.0.5'
+end
+
+def vendor
+  # 网络：'AFNetworking'
+  pod 'AFNetworking' , '= 3.2.1'
+
+  # 防止崩溃
+  pod 'AvoidCrash', '= 2.5.2'
+
+  # bugly
+  pod 'Bugly' , '= 2.5.5'
+
+  # 日志：'CocoaLumberjack'
+  pod 'CocoaLumberjack' , '= 3.3.0'
+
+  # tableView为空视图
+  pod 'CYLTableViewPlaceHolder' , '= 1.0.8'
+
+  # 数据库：'FMDB'
+  pod 'FMDB' , '= 2.7.2'
+
+  # 轮播图 : 'iCarousel'
+  pod 'iCarousel' , '= 1.8.3'
+
+  # 多媒体缓存
+  pod 'KTVHTTPCache', '= 1.1.5'
+
+  # LinkedME SDK集成
+  pod 'LinkedME_LinkPage' , '= 1.5.4.5'
+
+  # 布局：'Masonry'
+  pod 'Masonry' , '= 1.1.0'
+
+  # 提示框：'MBProgressHUD'
+  pod 'MBProgressHUD' , '= 1.1.0'
+
+  # 数据转换：'MJExtension'
+  pod 'MJExtension' , '= 3.1.0'
+
+  # 获取设备udid：'OpenUDID'
+  pod 'OpenUDID' , '= 1.0.0'
+
+  # zip:压缩和解压缩
+  pod 'SSZipArchive' , '= 2.1.1'
+
+end
+
+# 主工程
+target 'APPLaunchTime' do
+
+# 阿里云SDK
+aliyunsdks
+
+# 友盟统计
+umeng
+
+# 非源码集成且未制作成私有pod的三方库
+vendor
+
+
+end
+
