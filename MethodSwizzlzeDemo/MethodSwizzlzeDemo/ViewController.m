@@ -22,9 +22,10 @@
     dispatch_once(&onceToken, ^{
 
 //        [self swizzleMethod:[Person class] swizzCls:[Tiger class] orgSel:@selector(speak) swizzSel:@selector(yall)];
-        [self swizzleMethod:[Tiger class] swizzCls:[Person class] orgSel:@selector(walk) swizzSel:@selector(speak)];
+//        [self swizzleMethod:[Tiger class] swizzCls:[Person class] orgSel:@selector(walk) swizzSel:@selector(speak)];
 //        [self swizzleMethod:[self class] orgSel:@selector(originTest) swizzSel:@selector(viewDidLoad)];
 //        [self exchangeImp];
+        [self swizzleClassMethod:[self class] orgSel:@selector(classMethod1) swizzSel:@selector(classMethod2)];
     });
 }
 
@@ -50,7 +51,16 @@
     return YES;
 }
 
++ (void)classMethod1 {
+    NSLog(@"classMethod1");
+}
+
++ (void)classMethod2 {
+    NSLog(@"classMethod2");
+}
+
 + (BOOL)swizzleMethod:(Class)class orgSel:(SEL)origSel swizzSel:(SEL)altSel {
+
     Method origMethod = class_getInstanceMethod(class, origSel);
     Method altMethod = class_getInstanceMethod(class, altSel);
     NSLog(@"swizzleMethod origMethod %@",NSStringFromSelector(method_getName(origMethod)));
@@ -71,12 +81,37 @@
     return YES;
 }
 
++ (BOOL)swizzleClassMethod:(Class)class orgSel:(SEL)origSel swizzSel:(SEL)altSel {
+    Method origMethod = class_getClassMethod(class, origSel);
+    Method altMethod = class_getClassMethod(class, altSel);
+
+    BOOL didAddMethod = class_addMethod(object_getClass(class),origSel,
+                                        method_getImplementation(altMethod),
+                                        method_getTypeEncoding(altMethod));
+    NSLog(@"swizzleClassMethod didAddMethod %@",@(didAddMethod));
+
+    if (didAddMethod) {
+        class_replaceMethod(class,altSel,
+                            method_getImplementation(origMethod),
+                            method_getTypeEncoding(origMethod));
+    } else {
+        method_exchangeImplementations(origMethod, altMethod);
+    }
+
+    return YES;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    Class aClass = object_getClass(self);
+//    [ViewController swizzleClassMethod:aClass orgSel:@selector(classMethod1) swizzSel:@selector(classMethod2)];
     // Do any additional setup after loading the view.
-    [self testExchangeTwoClsTwoMethod];
+//    [self testExchangeTwoClsTwoMethod];
 //    [self performSelector:@selector(test)];
 //    [self originTest];
+    [ViewController classMethod1];
+    NSLog(@"-------------------------");
+    [ViewController classMethod2];
 }
 
 - (void)originTest {
