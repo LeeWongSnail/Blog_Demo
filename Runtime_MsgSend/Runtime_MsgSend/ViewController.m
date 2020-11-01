@@ -40,6 +40,10 @@
     imp();
 }
 
++ (void)initialize {
+
+}
+
 
 - (void)getMethodStructure {
     Method method = class_getInstanceMethod([self class], @selector(canSayHi:));
