@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB9EAD3525600CC000223B88 /* SubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9EAD3425600CC000223B88 /* SubClass.m */; };
+		EB9EAD3B25600CCC00223B88 /* ParentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9EAD3A25600CCC00223B88 /* ParentClass.m */; };
+		EB9EAD4125600D4500223B88 /* SubClassTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9EAD4025600D4500223B88 /* SubClassTwo.m */; };
 		EBB5BF2F254D64C600AC14A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB5BF2E254D64C600AC14A0 /* AppDelegate.m */; };
 		EBB5BF32254D64C600AC14A0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB5BF31254D64C600AC14A0 /* SceneDelegate.m */; };
 		EBB5BF35254D64C600AC14A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB5BF34254D64C600AC14A0 /* ViewController.m */; };
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB9EAD3325600CC000223B88 /* SubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubClass.h; sourceTree = "<group>"; };
+		EB9EAD3425600CC000223B88 /* SubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubClass.m; sourceTree = "<group>"; };
+		EB9EAD3925600CCC00223B88 /* ParentClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentClass.h; sourceTree = "<group>"; };
+		EB9EAD3A25600CCC00223B88 /* ParentClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentClass.m; sourceTree = "<group>"; };
+		EB9EAD3F25600D4500223B88 /* SubClassTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubClassTwo.h; sourceTree = "<group>"; };
+		EB9EAD4025600D4500223B88 /* SubClassTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubClassTwo.m; sourceTree = "<group>"; };
 		EBB5BF2A254D64C600AC14A0 /* Runtime_MsgSend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runtime_MsgSend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB5BF2D254D64C600AC14A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBB5BF2E254D64C600AC14A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +124,12 @@
 				EBB5BF3B254D64C700AC14A0 /* LaunchScreen.storyboard */,
 				EBB5BF3E254D64C700AC14A0 /* Info.plist */,
 				EBB5BF3F254D64C700AC14A0 /* main.m */,
+				EB9EAD3325600CC000223B88 /* SubClass.h */,
+				EB9EAD3425600CC000223B88 /* SubClass.m */,
+				EB9EAD3925600CCC00223B88 /* ParentClass.h */,
+				EB9EAD3A25600CCC00223B88 /* ParentClass.m */,
+				EB9EAD3F25600D4500223B88 /* SubClassTwo.h */,
+				EB9EAD4025600D4500223B88 /* SubClassTwo.m */,
 			);
 			path = Runtime_MsgSend;
 			sourceTree = "<group>";
@@ -266,7 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9EAD4125600D4500223B88 /* SubClassTwo.m in Sources */,
 				EBB5BF35254D64C600AC14A0 /* ViewController.m in Sources */,
+				EB9EAD3525600CC000223B88 /* SubClass.m in Sources */,
+				EB9EAD3B25600CCC00223B88 /* ParentClass.m in Sources */,
 				EBB5BF2F254D64C600AC14A0 /* AppDelegate.m in Sources */,
 				EBB5BF40254D64C700AC14A0 /* main.m in Sources */,
 				EBB5BF32254D64C600AC14A0 /* SceneDelegate.m in Sources */,

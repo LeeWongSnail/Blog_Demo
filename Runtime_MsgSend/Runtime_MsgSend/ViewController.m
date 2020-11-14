@@ -7,6 +7,8 @@
 
 #import "ViewController.h"
 #import <objc/runtime.h>
+#import "SubClass.h"
+#import "SubClassTwo.h"
 
 @interface ViewController ()
 
@@ -17,7 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self exeIMP];
+//    [self exeIMP];
+//    SubClass *sub = [SubClass new];
+//    SubClassTwo *subTwo = [SubClassTwo new];
+//    SubClass *sub1 = [SubClass new];
+//    SubClass *sub2 = [SubClass new];
+//    SubClass *sub3 = [SubClass new];
+
 }
 
 - (BOOL)canSayHi:(NSString *)name {
