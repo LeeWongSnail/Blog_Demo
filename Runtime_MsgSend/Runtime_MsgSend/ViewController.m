@@ -9,6 +9,7 @@
 #import <objc/runtime.h>
 #import "SubClass.h"
 #import "SubClassTwo.h"
+#import "MessageForward.h"
 
 @interface ViewController ()
 
@@ -25,6 +26,8 @@
 //    SubClass *sub1 = [SubClass new];
 //    SubClass *sub2 = [SubClass new];
 //    SubClass *sub3 = [SubClass new];
+//    [sub3 performSelector:@selector(aaa)];
+    [[MessageForward new] testMethod];
 
 }
 

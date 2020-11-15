@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB631FBF2560DEF7004F0023 /* MessageForward.m in Sources */ = {isa = PBXBuildFile; fileRef = EB631FBE2560DEF7004F0023 /* MessageForward.m */; };
 		EB9EAD3525600CC000223B88 /* SubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9EAD3425600CC000223B88 /* SubClass.m */; };
 		EB9EAD3B25600CCC00223B88 /* ParentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9EAD3A25600CCC00223B88 /* ParentClass.m */; };
 		EB9EAD4125600D4500223B88 /* SubClassTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9EAD4025600D4500223B88 /* SubClassTwo.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB631FBD2560DEF7004F0023 /* MessageForward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageForward.h; sourceTree = "<group>"; };
+		EB631FBE2560DEF7004F0023 /* MessageForward.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForward.m; sourceTree = "<group>"; };
 		EB9EAD3325600CC000223B88 /* SubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubClass.h; sourceTree = "<group>"; };
 		EB9EAD3425600CC000223B88 /* SubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubClass.m; sourceTree = "<group>"; };
 		EB9EAD3925600CCC00223B88 /* ParentClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentClass.h; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				EB9EAD3A25600CCC00223B88 /* ParentClass.m */,
 				EB9EAD3F25600D4500223B88 /* SubClassTwo.h */,
 				EB9EAD4025600D4500223B88 /* SubClassTwo.m */,
+				EB631FBD2560DEF7004F0023 /* MessageForward.h */,
+				EB631FBE2560DEF7004F0023 /* MessageForward.m */,
 			);
 			path = Runtime_MsgSend;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 				EB9EAD3525600CC000223B88 /* SubClass.m in Sources */,
 				EB9EAD3B25600CCC00223B88 /* ParentClass.m in Sources */,
 				EBB5BF2F254D64C600AC14A0 /* AppDelegate.m in Sources */,
+				EB631FBF2560DEF7004F0023 /* MessageForward.m in Sources */,
 				EBB5BF40254D64C700AC14A0 /* main.m in Sources */,
 				EBB5BF32254D64C600AC14A0 /* SceneDelegate.m in Sources */,
 			);
