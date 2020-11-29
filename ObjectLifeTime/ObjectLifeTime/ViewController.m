@@ -18,12 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    NSString *str = [[NSString alloc] init];
+    NSMutableArray *arr1 = [NSMutableArray array];
 
-    NSString *str = [NSString new];
-
-    NSMutableString *str = [NSMutableString string];
-
+    NSMutableArray *arr2 = [[NSMutableArray alloc] init];
     
 }
 
