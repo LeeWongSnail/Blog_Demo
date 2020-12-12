@@ -17,6 +17,7 @@
 		EB63203E257CF83A004F0023 /* Runtime_KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB63203D257CF83A004F0023 /* Runtime_KVOTests.m */; };
 		EB632049257CF83A004F0023 /* Runtime_KVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB632048257CF83A004F0023 /* Runtime_KVOUITests.m */; };
 		EB63205B257CF854004F0023 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EB63205A257CF854004F0023 /* Person.m */; };
+		EB63206125848227004F0023 /* PersonArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EB63206025848227004F0023 /* PersonArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		EB63204A257CF83A004F0023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB632059257CF854004F0023 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		EB63205A257CF854004F0023 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EB63205F25848227004F0023 /* PersonArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonArray.h; sourceTree = "<group>"; };
+		EB63206025848227004F0023 /* PersonArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				EB632033257CF83A004F0023 /* main.m */,
 				EB632059257CF854004F0023 /* Person.h */,
 				EB63205A257CF854004F0023 /* Person.m */,
+				EB63205F25848227004F0023 /* PersonArray.h */,
+				EB63206025848227004F0023 /* PersonArray.m */,
 			);
 			path = "Runtime-KVO";
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB63206125848227004F0023 /* PersonArray.m in Sources */,
 				EB632029257CF838004F0023 /* ViewController.m in Sources */,
 				EB632023257CF838004F0023 /* AppDelegate.m in Sources */,
 				EB63205B257CF854004F0023 /* Person.m in Sources */,

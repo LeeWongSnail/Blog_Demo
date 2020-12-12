@@ -9,7 +9,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol PersonKVODelegate <NSObject>
+@optional
+- (void)personObjectNamePropertyChangeFrom:(NSString *)oldName newName:(NSString *)newName;
+
+@end
+
 @interface Person : NSObject
+@property (nonatomic, weak) id <PersonKVODelegate> delegate;
 @property (nonatomic, copy) NSString *name;
 @end
 
