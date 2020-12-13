@@ -13,6 +13,7 @@
 @interface ViewController ()
 @property (nonatomic, strong) Person *man;
 @property (nonatomic, strong) PersonArray *personArray;
+@property (nonatomic, strong) NSMutableArray *array;
 @end
 
 @implementation ViewController
@@ -20,14 +21,41 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.man = [[Person alloc] init];
-    [self arrayKVO];
+    self.array = [NSMutableArray array];
+    self.man = [[Person alloc] initWithChildren:self.array];
+    [self printKVOObserverInfo];
+}
+
+- (void)printKVOObserverInfo {
+    [self.man addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:@""];
+    [self.man addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:@""];
+    id info = self.man.observationInfo;
+    NSLog(@"%@", [info description]);
+}
+
+- (void)addPersonNameKVO {
+    [self.man addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:@""];
+    self.man.name = @"LeeWong";
+}
+
+- (void)addPersonInfoDescrption {
+    [self.man addObserver:self forKeyPath:@"personDescription" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:@""];
+    self.man.name = @"LeeWong";
+    self.man.age = 30;
 }
 
 - (void)arrayKVO {
     self.personArray = [@[@"1"] mutableCopy];
-    [self.personArray addObserver:self forKeyPath:@"count" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:@"aaa"];
+    [self addObserver:self forKeyPath:@"personArray" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:@"aaa"];
     [self.personArray addObject:@"2"];
+}
+
+- (void)personChildrenKVO {
+    NSLog(@"111children class %@ object %p",object_getClass(self.man),self.man);
+    [self.man addObserver:self forKeyPath:@"children" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:@"aaa"];
+    NSLog(@"222children class %@ object %p",object_getClass(self.man),self.man);
+    [self.man insertObject:@"111" inChildrenAtIndex:0];
+    NSLog(@"333children class %@ object %p",object_getClass(self.man),self.man);
 }
 
 - (void)kvoClassChange {
@@ -89,9 +117,12 @@
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    NSLog(@"observeValueForKeyPath for keyPath %@",keyPath);
     if ([keyPath isEqual:@"name"]) {
         NSLog(@"keyPath %@ object %@ change%@ context %@",keyPath,object,change,context);
     }
 }
+
+
 
 @end
