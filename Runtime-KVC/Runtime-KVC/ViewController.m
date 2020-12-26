@@ -14,6 +14,7 @@
 @interface ViewController ()
 @property (nonatomic, strong) Person *p;
 @property (nonatomic, strong) Father *father;
+@property (nonatomic, strong) Son *son;
 @end
 
 @implementation ViewController
@@ -22,10 +23,59 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    [self setValueForUndefineKeyTest];
+    [self mutableArrayValueForKey];
+}
+
+#pragma mark -
+
+- (void)mutableArrayValueForKey {
+    self.father = [Father new];
+    [[self mutableArrayValueForKey:@"father"] addObject:@"farmer"];
+    NSLog(@"mutableArrayValueForKey -- addObject %@",[self.father mutableArrayValueForKey:@"children"].firstObject);
+    [[self.father mutableArrayValueForKey:@"children"] removeObjectAtIndex:0];
+    NSLog(@"mutableArrayValueForKey -- removeObject %@",[self.father mutableArrayValueForKey:@"children"]);
+}
+
+#pragma mark valueForKey:
+
+- (void)valueForKeyTestStep1 {
+    self.son = [Son new];
+    id result = [self.son valueForKey:@"school"];
+    NSLog(@"valueForKeyTestStep1 result %@ result class %@",result,[result class]);
+}
+
+- (void)valueForKeyTestStep2 {
+    self.son = [Son new];
+    id result = [self.son valueForKey:@"school"];
+    NSLog(@"valueForKeyTestStep2 result %@ result class %@",result,[result class]);
+}
+
+- (void)valueForKeyTestStep3 {
+    self.son = [Son new];
+    id result = [self.son valueForKey:@"school"];
+    NSLog(@"valueForKeyTestStep3 result %@ result class %@",result,[result class]);
+}
+
+- (void)valueForKeyTestStep4 {
+    self.son = [Son new];
+    id result = [self.son valueForKey:@"school"];
+    NSLog(@"valueForKeyTestStep4 result %@ result class %@",result,[result class]);
+}
+
+- (void)valueForKeyTestStep5 {
+    self.son = [Son new];
+    id result = [self.son valueForKey:@"school"];
+    NSLog(@"valueForKeyTestStep5 result %@ result class %@",result,[result class]);
+}
+
+- (void)valueForKeyTestStep6 {
+    self.son = [Son new];
+    id result = [self.son valueForKey:@"school"];
+    NSLog(@"valueForKeyTestStep6 result %@ result class %@",result,[result class]);
 }
 
 
+#pragma mark - SetValue:forKey
 - (void)setValueForUndefineKeyTest {
     self.father = [Father new];
     [self.father setValue:@"LeeWong" forKey:@"name1"];
@@ -57,7 +107,7 @@
     Son *son1 = [Son new];
     Son *son2 = [Son new];
     self.father.name = @"LeeWong";
-    self.father.children = @[son1,son2];
+//    self.father.children = @[son1,son2];
 
     NSLog(@"Father 的children 类型是%@",[[self.father valueForKey:@"children"] class]);
     NSLog(@"Father 的children 类型是%@",object_getClass([self.father valueForKey:@"children"]));
