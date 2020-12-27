@@ -23,17 +23,77 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    [self mutableArrayValueForKey];
+    [self advanceKVCDistinctMethod];
+}
+
+- (void)advanceKVCDistinctMethod {
+    Person *p1 = [Person new];
+    p1.age = 10;
+
+    Person *p2 = [Person new];
+    p2.age = 20;
+
+    Person *p3 = [Person new];
+    p3.age = 20;
+
+    Person *p4 = [Person new];
+    p4.age = 30;
+
+    NSArray *pArray = @[p1,p2,p3,p4];
+
+    NSArray *distinctUnionOfObjectsArray=[pArray valueForKeyPath:@"@distinctUnionOfObjects.age"];
+    NSLog(@"distinctUnionOfObjects:%@",distinctUnionOfObjectsArray);
+
+    NSArray *unionOfObjectsArray=[pArray valueForKeyPath:@"@unionOfObjects.age"];
+    NSLog(@"unionOfObjects:%@",unionOfObjectsArray);
+}
+
+- (void)advanceKVCMethod {
+    Person *p1 = [Person new];
+    p1.age = 10;
+
+    Person *p2 = [Person new];
+    p2.age = 20;
+
+    Person *p3 = [Person new];
+    p3.age = 20;
+
+    Person *p4 = [Person new];
+    p4.age = 30;
+
+    NSArray *pArray = @[p1,p2,p3,p4];
+
+    NSNumber *ageSum = [pArray valueForKeyPath:@"@sum.age"];
+    NSLog(@"年龄的总和为 %@",ageSum);
+
+    NSNumber *average = [pArray valueForKeyPath:@"@avg.age"];
+    NSLog(@"年龄的平均值为 %@",average);
+
+    NSNumber *count = [pArray valueForKeyPath:@"@count"];
+    NSLog(@"年龄的个数 %@",count);
+
+    NSNumber *max = [pArray valueForKeyPath:@"@max.age"];
+    NSLog(@"年龄最大的为 %@",max);
+
+    NSNumber *min = [pArray valueForKeyPath:@"@min.age"];
+    NSLog(@"年龄最小的为 %@",min);
 }
 
 #pragma mark -
 
 - (void)mutableArrayValueForKey {
     self.father = [Father new];
-    [[self mutableArrayValueForKey:@"father"] addObject:@"farmer"];
-    NSLog(@"mutableArrayValueForKey -- addObject %@",[self.father mutableArrayValueForKey:@"children"].firstObject);
-    [[self.father mutableArrayValueForKey:@"children"] removeObjectAtIndex:0];
-    NSLog(@"mutableArrayValueForKey -- removeObject %@",[self.father mutableArrayValueForKey:@"children"]);
+//    [self.father.children addObject:@"son1"];
+//    NSLog(@"befor ---- children = %p  children class %@",self.father.children,[self.father.children class]);
+    id arrM = [self.father mutableArrayValueForKey:@"children"];
+    NSLog(@"%p,%@",arrM,[arrM class]);
+    
+    [[self.father mutableArrayValueForKey:@"children"] addObject:@"farmer"];
+    NSLog(@"%p",[self.father methodForSelector:@selector(addObject:)]);
+    NSLog(@"%p",[self.father methodForSelector:@selector(insertObject:atIndex:)]);
+//    NSLog(@"after ---- children = %p  children class %@",self.father.children,[self.father.children class]);
+//    [[self.father mutableArrayValueForKey:@"children"] addObject:@"air"];
+//    NSLog(@"after ---- children = %p  children class %@",self.father.children,[self.father.children class]);
 }
 
 #pragma mark valueForKey:

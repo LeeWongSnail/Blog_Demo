@@ -12,6 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Father : Person
+@property (nonatomic, strong) NSMutableArray *children;
 @end
 
 NS_ASSUME_NONNULL_END
