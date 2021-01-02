@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    Person *p = [Person new];
+    Person *p1 = [Person new];
+    
+    NSLog(@"%@",[p personDescription]);
+    
 }
 
 

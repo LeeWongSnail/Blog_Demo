@@ -16,6 +16,8 @@
 		EB277DFC25A01B2300AA7654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB277DFB25A01B2300AA7654 /* main.m */; };
 		EB277E0625A01B2300AA7654 /* ObjectStructureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB277E0525A01B2300AA7654 /* ObjectStructureTests.m */; };
 		EB277E1125A01B2300AA7654 /* ObjectStructureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB277E1025A01B2300AA7654 /* ObjectStructureUITests.m */; };
+		EB277E2325A01CF100AA7654 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EB277E2225A01CF100AA7654 /* Person.m */; };
+		EB277E2925A0941C00AA7654 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = EB277E2825A0941C00AA7654 /* House.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		EB277E0C25A01B2300AA7654 /* ObjectStructureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectStructureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB277E1025A01B2300AA7654 /* ObjectStructureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectStructureUITests.m; sourceTree = "<group>"; };
 		EB277E1225A01B2300AA7654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB277E2125A01CF100AA7654 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EB277E2225A01CF100AA7654 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EB277E2725A0941C00AA7654 /* House.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		EB277E2825A0941C00AA7654 /* House.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				EB277DF725A01B2300AA7654 /* LaunchScreen.storyboard */,
 				EB277DFA25A01B2300AA7654 /* Info.plist */,
 				EB277DFB25A01B2300AA7654 /* main.m */,
+				EB277E2125A01CF100AA7654 /* Person.h */,
+				EB277E2225A01CF100AA7654 /* Person.m */,
+				EB277E2725A0941C00AA7654 /* House.h */,
+				EB277E2825A0941C00AA7654 /* House.m */,
 			);
 			path = ObjectStructure;
 			sourceTree = "<group>";
@@ -266,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB277E2925A0941C00AA7654 /* House.m in Sources */,
 				EB277DF125A01B2000AA7654 /* ViewController.m in Sources */,
 				EB277DEB25A01B2000AA7654 /* AppDelegate.m in Sources */,
+				EB277E2325A01CF100AA7654 /* Person.m in Sources */,
 				EB277DFC25A01B2300AA7654 /* main.m in Sources */,
 				EB277DEE25A01B2000AA7654 /* SceneDelegate.m in Sources */,
 			);
