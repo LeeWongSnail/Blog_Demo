@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "FFAB5B4A-89CA-430A-83CE-DCE4C200D816"
    type = "1"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "2EE95EFE-47C3-476B-B1AC-F78E9B2583A6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Self&amp;Super/ViewController.m"
-            timestampString = "544955133.87169"
+            filePath = "Self&amp;Super/Person.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-setLastName:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

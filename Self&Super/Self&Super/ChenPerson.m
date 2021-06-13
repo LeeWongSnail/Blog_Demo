@@ -11,6 +11,10 @@
 @implementation ChenPerson
 @synthesize lastName = _lastName;
 
+static void test1111() {
+    NSLog(@"-----test----");
+}
+
 - (instancetype)init
 {
     self = [super init];
@@ -24,7 +28,7 @@
 - (void)setLastName:(NSString*)lastName
 {
     //设置方法一：如果setter采用是这种方式，就可能引起崩溃
-        if (![lastName isEqualToString:@"陈"])
+    ;        if (![lastName isEqualToString:@"陈"])
         {
             [NSException raise:NSInvalidArgumentException format:@"姓不是陈"];
         }

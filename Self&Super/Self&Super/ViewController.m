@@ -14,13 +14,18 @@
 
 @implementation ViewController
 
+//static void test() {
+//    NSLog(@"-----test----");
+//}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //父类会调用子类重载自己的方法
     ChenPerson *p = [[ChenPerson alloc] init];
-    p.lastName = @"wang";
-    NSLog(@"%@",p.lastName);
+////    p.lastName = @"wang";
+//    NSLog(@"%@",p.lastName);
+    test1111();
 }
 
 
@@ -28,6 +33,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 
 @end

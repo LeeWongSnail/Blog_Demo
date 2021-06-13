@@ -7,7 +7,9 @@
 //
 
 #import "Person.h"
-
+static void test1111();
 @interface ChenPerson : Person
+
+
 
 @end
