@@ -9,11 +9,17 @@
 #import "Person.h"
 #import "PersonArray.h"
 #import <objc/runtime.h>
+#import "Student.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) Person *man;
 @property (nonatomic, strong) PersonArray *personArray;
 @property (nonatomic, strong) NSMutableArray *array;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy, readonly) NSString *roProperty;
+
+
+@property (nonatomic, strong) Student *stu;
 @end
 
 @implementation ViewController
@@ -23,8 +29,33 @@
     // Do any additional setup after loading the view.
     self.array = [NSMutableArray array];
     self.man = [[Person alloc] initWithChildren:self.array];
-    [self printKVOObserverInfo];
+    self.stu = [Student new];
+    [self addReadOnlyProperty];
+    [self.stu modifyClassName:@"Class Two"];
 }
+
+#pragma mark - readOnly
+- (void)addReadOnlyProperty {
+    [self addObserver:self forKeyPath:@"roProperty" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
+}
+
+#pragma mark Array
+- (void)observeReadOnlyProperty {
+    [self.stu addObserver:self forKeyPath:@"className" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
+}
+- (void)observeArraCountDirectly {
+    [self.array addObserver:self forKeyPath:@"count" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
+}
+
+- (void)keyValueChangeKindKey {
+    [self addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionInitial context:nil];
+    [self addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
+}
+
+
+
+
+#pragma mark - KVO
 
 - (void)printKVOObserverInfo {
     [self.man addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:@""];

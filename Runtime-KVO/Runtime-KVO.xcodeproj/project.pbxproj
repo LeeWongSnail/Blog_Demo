@@ -18,6 +18,7 @@
 		EB632049257CF83A004F0023 /* Runtime_KVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB632048257CF83A004F0023 /* Runtime_KVOUITests.m */; };
 		EB63205B257CF854004F0023 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EB63205A257CF854004F0023 /* Person.m */; };
 		EB63206125848227004F0023 /* PersonArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EB63206025848227004F0023 /* PersonArray.m */; };
+		EBFA69F826761D7300235724 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFA69F726761D7300235724 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		EB63205A257CF854004F0023 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		EB63205F25848227004F0023 /* PersonArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonArray.h; sourceTree = "<group>"; };
 		EB63206025848227004F0023 /* PersonArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonArray.m; sourceTree = "<group>"; };
+		EBFA69F626761D7300235724 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		EBFA69F726761D7300235724 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				EB63205A257CF854004F0023 /* Person.m */,
 				EB63205F25848227004F0023 /* PersonArray.h */,
 				EB63206025848227004F0023 /* PersonArray.m */,
+				EBFA69F626761D7300235724 /* Student.h */,
+				EBFA69F726761D7300235724 /* Student.m */,
 			);
 			path = "Runtime-KVO";
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				EB632029257CF838004F0023 /* ViewController.m in Sources */,
 				EB632023257CF838004F0023 /* AppDelegate.m in Sources */,
 				EB63205B257CF854004F0023 /* Person.m in Sources */,
+				EBFA69F826761D7300235724 /* Student.m in Sources */,
 				EB632034257CF83A004F0023 /* main.m in Sources */,
 				EB632026257CF838004F0023 /* SceneDelegate.m in Sources */,
 			);
